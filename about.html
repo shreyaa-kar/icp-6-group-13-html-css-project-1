@@ -3,8 +3,78 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color:rgb(245, 204, 249) ;
+        }
+    
+        .navbar{
+            background-color:#f963dd ;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .navbar-icon{
+            height: 10px;
+            width: 10px;
+    
+        }
+
+        .navbar-brand-name{
+            font-size: 50px;
+            color: #fff;
+            font-weight: bold;
+            margin-left: 10px;
+            margin-bottom: 50px;
+        }
+
+        .navbar-menu{
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 10px;
+            cursor: pointer;
+            background-color: #83339b;
+            color: white;
+            padding: 8px 25px;
+            border: white;
+            border-radius: 20px;
+            border-color: #fff;
+        }
+
+        .navbar-menu:hover{
+            background-color: #deb2fb;
+            box-shadow: 0 0 5px 2px #deb2fb;
+            padding: 10px 27px;
+            transition: 0.5s;
+        }
+
+        .navbar-menu-container{
+            margin-left: 200px;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>About Page for Book Shop</h1>
+    <div class="navbar">
+        <div class="navbar-brand">
+    
+           <img src="https://cdn-icons-png.flaticon.com/128/2280/2280294.png"/>
+           <span class="navbar-brand-name">GRACE BOOKSTORE</span>
+      
+        </div>
+        
+        <div class="navbar-menu-container">
+          <c>
+           <span class="navbar-menu">Home</span>
+           <span class="navbar-menu">Login</span>
+           <span class="navbar-menu">About</span>
+           <span class="navbar-menu">Contact</span>
+          </c>
+        </div>
+    </div>
 </body>
 </html>
