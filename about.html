@@ -7,11 +7,11 @@
         body{
             padding: 0;
             margin: 0;
-            background-color:rgb(245, 204, 249) ;
+            background-color:rgb(253, 237, 218);
         }
     
         .navbar{
-            background-color:#f963dd ;
+            background-color:#b0916a ;
             padding: 10px;
             display: flex;
             align-items: center;
@@ -19,9 +19,7 @@
         }
 
         .navbar-icon{
-            height: 10px;
-            width: 10px;
-    
+            height: 130px;
         }
 
         .navbar-brand-name{
@@ -33,27 +31,28 @@
         }
 
         .navbar-menu{
-            font-size: 22px;
+            font-size: 25px;
             font-weight: bold;
             margin-left: 10px;
             cursor: pointer;
-            background-color: #83339b;
-            color: white;
-            padding: 8px 25px;
+            background-color: #ffffff;
+            color: black;
+            padding: 5px 15px;
             border: white;
-            border-radius: 20px;
+            border-radius: 50px;
             border-color: #fff;
         }
 
         .navbar-menu:hover{
-            background-color: #deb2fb;
-            box-shadow: 0 0 5px 2px #deb2fb;
-            padding: 10px 27px;
+            background-color: bisque;
+            box-shadow: 0 0 5px 2px bisque;
+            padding: 7px 25px;
             transition: 0.5s;
         }
 
         .navbar-menu-container{
             margin-left: 200px;
+
         }
 
         .about-us-heading{
@@ -71,29 +70,167 @@
             border-radius: 30px;
         }
 
+        .about-page-description{
+            font-size: 20px;
+            margin-top: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .about-page-heading{
+            font-size: 30px;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+
+        .footer-tagline{
+            background-color: black;
+            color: #fff;
+            font-size: 25px;
+            display: block;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer{
+            background-color:#b0916a ;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .footer-items-container{
+            width: 400px;
+            color: #fff;
+            display: block;
+            text-align: center;
+        }
+
+        .footer-items{
+            font-size: 25px;
+        }
+
+        .footer-tabs{
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .footer-tabs:hover{
+            color: black;
+            transition: 0.5s;
+        }
+
+        @media only screen and (max-width: 600px){
+            .navbar-menu-container{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .navbar{
+                flex-direction: column;
+            }
+
+            .navbar-brand-name{
+                font-size: 35px;
+            }
+            .navbar-menu{
+                display: block;
+                margin: 10px;
+                width: 100%;
+                text-align: center;
+            }
+
+            .navbar-icon{
+                height: 80px;
+                width: 80px;
+            }
+
+            .about-page-img{
+                height: 300px;
+                width: 60vh;
+            }
+
+            .footer-tagline{
+                font-size: 20px;
+            }
+        }
+
+
     </style>
 </head>
 <body>
     <div class="navbar">
         <div class="navbar-brand">
     
-           <img src="https://cdn-icons-png.flaticon.com/128/2280/2280294.png"/>
+           <img src="https://cdn-icons-png.flaticon.com/128/2280/2280294.png" class="navbar-icon"/>
            <span class="navbar-brand-name">GRACE BOOKSTORE</span>
       
         </div>
         
         <div class="navbar-menu-container">
-          <c>
-           <span class="navbar-menu">Home</span>
-           <span class="navbar-menu">Login</span>
+          <div>
+            <span class="navbar-menu">Login</span>
+            <a href="home page.html"> <span class="navbar-menu">Home</span> </a>
+           <span class="navbar-menu">Search</span>
            <span class="navbar-menu">About</span>
            <span class="navbar-menu">Contact</span>
-          </c>
+          </div>
         </div>
     </div>
 
-    <h1 class="about-us-heading">About Us</h1>
-    <img src="./img/about-page-image.jpg" class="about-page-img" />
-    <p></p>
+    <div>
+        <h1 class="about-us-heading">About Us</h1>
+        <p class="about-page-description">Books are an infinite source of knowledge. The only thing that can replace a book is another book. But how to find that title which isn't available in the bookstore near your home? Yes, you guessed it right-online Bookstores. In one click, you can browse through thousands of titles. Find your favourite book in the format you prefer at our online bookstore.</p>
+        <img src="./img/about-page-image.jpg" class="about-page-img" />
+    </div>
+
+    <div>
+        <h3 class="about-page-heading">#1 Online Book Store in India</h3>
+        <p class="about-page-description">Found in 2023, Grace Bookstore is a platform where you can find all kinds of books. We offer readers the opportunity to buy a wide range of books online at affordable prices. Readers can avail of our services from all over India. Our store provides a wide variety of genres, including motivational books, romance books, fiction books, non-fiction books etc.</p>
+    </div>
+
+    <div>
+        <h3 class="about-page-heading">Our Aim</h3>
+        <p class="about-page-description">Our goal is to provide readers with the books they want without them having to put themselves on a book-buying ban. Thus, we have Introduced a wide range of categories to offer the best quality books at affordable rates.</p>
+    </div>
+
+    <div>
+        <h3 class="about-page-heading">Why Should You Choose Grace Bookstore?</h3>
+        <ul class="about-page-description">
+            <li>Best Quality Books</li>
+            <li>Wide Variety Of Books</li>
+            <li>Affordable Prices</li>
+            <li>Same Day Dispatch</li>
+            <li>Proper Packaging</li>
+            <li>Easy and Safe Payments</li>
+            <li>24*7 Customers Service</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3 class="about-page-heading">Conclution</h3>
+        <p class="about-page-description">At Grace Bookstore, we strive to provide the best services to our buyers in the era of competition, overpricing and forgery. We aim to provide services through which the user can buy the best books online at the cheapest prices. Here, you can get copies of your favourite books in a pocket-friendly way.</p>
+    </div>
+
+    <div class="footer-tagline">We have 1000+ happy customers and counting...</div>
+
+    <div class="footer">
+        <div class="footer-items-container">
+            <h3 class="footer-items">Quick Links</h3>
+            <p class="footer-tabs">Home</p>
+            <p class="footer-tabs">Search</p>
+            <p class="footer-tabs">Contact</p>
+            <p class="footer-tabs">About</p>
+        </div>
+
+        <div class="footer-items-container">
+            <h3 class="footer-items">CONTACT US</h3>
+            <p class="footer-tabs"> <i class="fa-solid fa-location-dot "></i> &nbsp; Our Head Office, </br>Sadar, Nagpur<br/> Maharashtra - 441122</p>
+            <p class="footer-tabs"><i class="fa-solid fa-phone"></i> &nbsp; +91-9766279925</p>
+            <p class="footer-tabs"><i class="fa-solid fa-envelope"></i> &nbsp; gracebookstore@gmail.com</p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/98b89cfd68.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
