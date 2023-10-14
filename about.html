@@ -19,9 +19,7 @@
         }
 
         .navbar-icon{
-            height: 10px;
-            width: 10px;
-    
+            height: 130px;
         }
 
         .navbar-brand-name{
@@ -34,7 +32,8 @@
 
         .navbar-menu{
             font-size: 25px;
-            font-weight: bold;            margin-left: 10px;
+            font-weight: bold;
+            margin-left: 10px;
             cursor: pointer;
             background-color: #ffffff;
             color: black;
@@ -121,6 +120,41 @@
             transition: 0.5s;
         }
 
+        @media only screen and (max-width: 600px){
+            .navbar-menu-container{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .navbar{
+                flex-direction: column;
+            }
+
+            .navbar-brand-name{
+                font-size: 35px;
+            }
+            .navbar-menu{
+                display: block;
+                margin: 10px;
+                width: 100%;
+                text-align: center;
+            }
+
+            .navbar-icon{
+                height: 80px;
+                width: 80px;
+            }
+
+            .about-page-img{
+                height: 300px;
+                width: 60vh;
+            }
+
+            .footer-tagline{
+                font-size: 20px;
+            }
+        }
+
 
     </style>
 </head>
@@ -128,19 +162,19 @@
     <div class="navbar">
         <div class="navbar-brand">
     
-           <img src="https://cdn-icons-png.flaticon.com/128/2280/2280294.png"/>
+           <img src="https://cdn-icons-png.flaticon.com/128/2280/2280294.png" class="navbar-icon"/>
            <span class="navbar-brand-name">GRACE BOOKSTORE</span>
       
         </div>
         
         <div class="navbar-menu-container">
-          <c>
-           <span class="navbar-menu">Home</span>
-           <span class="navbar-menu">Login</span>
+          <div>
+            <span class="navbar-menu">Login</span>
+            <a href="home page.html"> <span class="navbar-menu">Home</span> </a>
            <span class="navbar-menu">Search</span>
            <span class="navbar-menu">About</span>
            <span class="navbar-menu">Contact</span>
-          </c>
+          </div>
         </div>
     </div>
 
@@ -178,7 +212,7 @@
         <p class="about-page-description">At Grace Bookstore, we strive to provide the best services to our buyers in the era of competition, overpricing and forgery. We aim to provide services through which the user can buy the best books online at the cheapest prices. Here, you can get copies of your favourite books in a pocket-friendly way.</p>
     </div>
 
-    <div class="footer-tagline">We have 1000+ happy customers and counting..</div>
+    <div class="footer-tagline">We have 1000+ happy customers and counting...</div>
 
     <div class="footer">
         <div class="footer-items-container">
@@ -196,7 +230,7 @@
             <p class="footer-tabs"><i class="fa-solid fa-envelope"></i> &nbsp; gracebookstore@gmail.com</p>
         </div>
     </div>
-
+    <script src="https://kit.fontawesome.com/98b89cfd68.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
