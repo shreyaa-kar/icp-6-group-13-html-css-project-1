@@ -50,7 +50,7 @@ padding: 20px;
 display: flex;
 margin: 20px;
 justify-content: space-around;
-font-style: italic;
+font-style: Sans-serif;
 font-size: 20px;
 }
 .menus:hover{
@@ -103,7 +103,7 @@ background-color: rgb(238, 89, 89);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: larger;
+    font-size:Sans-serif ;
     height: 50px;
     font-weight: 100;
     font-size: 20px;
@@ -114,7 +114,7 @@ background-color: rgb(238, 89, 89);
   .navbar2 a {
     color: #333;
     text-decoration: none;
-    font-family: cursive;
+    font-family:Sans-serif ;
   }
 
   
@@ -136,27 +136,53 @@ background-color: rgb(238, 89, 89);
 }
 
 
+
+
 * {
   box-sizing: border-box;
 }
 
+
+/* first flexbox row */
+
 .flex-container {
   display: flex;
   flex-direction: row;
+  
   font-size: 30px;
   text-align: center;
+  justify-content:space-between;
+  height: 260px;
+  width: 100%;
 }
 
 .flex-item-left {
-  background-color: #f1f1f1;
-  padding: 10px;
+
+  padding: 20px;
   flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://media.npr.org/assets/img/2021/08/13/711gd93ifkl_custom-4da4cd0caaee24686552a01b6a9a5fe365b0e08d-s800-c85.jpeg');
+  margin:30px; /* If you want no margin */
+  padding:0; /*if your want to padding */
+  background-size: 100% 100%;
+
+  
+  
+  
+
 }
 
 .flex-item-right {
-  background-color: dodgerblue;
-  padding: 10px;
+  
+  padding: 20px;
   flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://iconbooks.com/wp-content/blogs.dir/24/files/2023/09/getimage-626-293x450.jpeg');
+  margin:30px; /* If you want no margin */
+  padding:20px; /*if your want to padding */
+  background-size: cover;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -165,5 +191,50 @@ background-color: rgb(238, 89, 89);
     flex-direction: column;
   }
 }
+
+
+/* second flex box  row*/
+
+.flex-container-box {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  
+  font-size: 30px;
+  text-align: center;
+  justify-content:space-between;
+  height: 240px;
+  width: 100%;
+}
+
+.flex-left {
+  background-color: #f1f1f1;
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK67Wrq6khA95XVObXRqfegwxo-ENM-yMGpQ&usqp=CAU');
+  margin:30px; /* If you want no margin */
+  padding:0; /*if your want to padding */
+  background-size: 100% 100%;
+
+  
+  
+  
+
+}
+
+.flex-right {
+  background-color: dodgerblue;
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://m.media-amazon.com/images/I/71uogpE88mL._AC_UF1000,1000_QL80_.jpg');
+  margin:30px; /* If you want no margin */
+  padding:20px; /*if your want to padding */
+  background-size: cover;
+}
+
 
 
