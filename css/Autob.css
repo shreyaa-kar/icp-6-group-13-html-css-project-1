@@ -237,5 +237,84 @@ background-color: rgb(238, 89, 89);
   background-size: cover;
 }
 
-
-
+  /* footer */
+.footer {
+  background-color: rgb(18, 206, 248);
+  padding: 40px 0;
+  
+  text-align: center;
+  font-family: cursive;
+  }
+  
+  .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 250px;
+  background-color: #047d7d;
+  margin-top: 50px;
+  }
+  .logo2{
+  margin-top: -20px;
+  height: auto;
+  width: auto;
+  }
+  
+  .footer-column {
+  width: 265px;
+  /* margin-bottom: 10px; */
+  }
+  
+  h3 {
+  font-size: 21px;
+  margin-bottom: 15px;
+  color: #edf3f3;
+  }
+  
+  p {
+  font-size: 14px;
+  line-height: 1.5;
+  }
+  
+  ul {
+  list-style: none;
+  padding: 0;
+  }
+  
+  ul li a {
+  color: #f4f7f9;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.3s ease;
+  margin-bottom: 10px;
+  }
+  
+  ul li a:hover {
+  color: #f31212;
+  }
+  
+  .social-icons {
+  display: block;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  
+  }
+  
+  
+  .social-icons li {
+  margin: 0 8px;
+  
+  }
+  
+  .fa {
+  font-size: 30px;
+  
+  }
+  
+  
+  
+ 
