@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+}
+.navbar1 {
+background-color: #080808;
+color: #fff;
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo img {
+width: 400px ;
+height:80px;
+
+margin-left: 20px;
+border-radius: 0px 30px 0px 30px;
+}
+.search{
+display: left;
+}
+.input{
+width: 300px;
+height: 20px;
+border-radius: 50%;
+}
+.search1{
+height: 28px;
+width: 100px;
+margin-left: 10px;
+border-radius: 50%;
+}
+
+.store-name {
+font-size: 24px;
+font-weight: bold;
+}
+
+.menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.menu {
+padding: 20px;
+display: flex;
+margin: 20px;
+justify-content: space-around;
+font-style: italic;
+font-size: 20px;
+}
+.menus:hover{
+border: 1px solid white;
+height: auto;
+width: auto;
+box-shadow: #f5f5f5 0px 0px 5px 2px;
+transition: 0.5s;
+border-radius: 30px;
+text-align: center;
+background-color: rgb(71, 67, 67);
+padding: -20px;
+}
+.menus{
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+margin: 10px;
+padding: 10px;
+
+}
+
+.search input {
+padding: 5px;
+border: none;
+border-radius: 3px;
+}
+
+.search button {
+background-color: #e74c3c;
+color: #fff;
+border: none;
+border-radius: 3px;
+padding: 5px 10px;
+cursor: pointer;
+}
+.search button:hover{
+border: 1px solid white;
+height: auto;
+width: 100px;
+box-shadow: #f5f5f5 0px 0px 5px 2px;
+transition: 0.5s;
+border-radius: 30px;
+text-align: center;
+background-color: rgb(238, 89, 89);
+
+}
+.navbar2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+    height: 50px;
+    font-weight: 100;
+    font-size: 20px;
+
+  }
+  
+
+  .navbar2 a {
+    color: #333;
+    text-decoration: none;
+    font-family: cursive;
+  }
+
+  
+  .navbar2 a:hover{
+    border-radius: 15px 0 15px 0;
+    padding: 3px;
+   background: linear-gradient(rgb(11, 107, 126), rgb(12, 12, 12));
+    color: rgb(240, 239, 240);
+    border: 2px solid rgb(239, 234, 234);
+  }
+
+.navbar a.active {
+  border: 2px solid rgb(246, 241, 241);
+  border-radius: 15px 0 15px 0;
+  padding: 3px;
+  box-shadow: 4px 3px rgb(246, 246, 248);
+  background-color: black;
+  color: white;
+  }
