@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>SIGNUP PAGE</title>
+    <style>
+        .heading {
+            font-family: Calibri, sans-serif;
+            font-size: 45px;
+            color: red;
+            margin: 20px;
+            text-align: left;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffc266;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container {
+            width: 340px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 20px;
+            border-top:  8px solid #cc7a00;
+            border-bottom: 2px solid #cc7a00;
+            border-left: 2px solid #cc7a00;
+            border-right: 2px solid #cc7a00;
+        }
+
+        .label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 15px;
+
+        }
+
+        .username {
+            width: 325px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .password {
+            width: 325px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .register-btn {
+            width: 140px;
+            padding: 14px;
+            background-color: #cc7a00;
+            color: black;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+            font-size: 10px;
+            text-align: center;
+
+
+        }
+
+        .register-btn:hover {
+            background-color: #45a049;
+        }
+
+        .message {
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+
+        }
+
+        .login {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container ">
+        <h1> Registration</h1>
+        <form>
+            <div>
+                <p class="label"> Username:</p>
+                <input class="username" type="text" id="username" name="username" required
+                    placeholder="Enter email or mobile">
+            </div>
+            <div>
+                <p class="label"> Password:</p>
+                <input class="password" id="password" name="password" required placeholder="Enter your password">
+            </div>
+            <div>
+                <p class="label"> Confirm password</p>
+                <input class="password" id=" password" name="password" required placeholder="Re-enter your password">
+            </div>
+            <br />
+            <button class="register-btn"> Register</button>
+            <div class="message">
+                Already have an Account ?<a class="login" href="login.html">Login</a>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>
