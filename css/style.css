@@ -303,14 +303,18 @@ font-family: cursive;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
+background-color: #3e3f3e;
 max-width: 100%;
 margin: 0 auto;
-height: 250px;
+height: 300px;
+
 }
 .logo2{
-margin-top: -20px;
-height: auto;
-width: auto;
+margin-top: 10px;
+margin-right: 10px;
+margin-right: 10px;
+height: 250px;
+width: 250;
 }
 
 .footer-column {
@@ -438,5 +442,7 @@ flex-wrap: wrap;
         flex-wrap: wrap;
     }
 }
+
+ 
 
  
