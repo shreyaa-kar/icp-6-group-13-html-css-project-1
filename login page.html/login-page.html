@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login page</title>
+    <style>
+        body {
+            background-color: #808080;
+            margin: 0px;
+        } 
+
+        .login-container {
+            background-color: white;
+            height: 500px;
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 70px;
+            padding: 10px;
+            border-radius: 20px;
+            border-top: 9px solid #595959;
+            border-bottom: 4px solid #595959;
+            border-left: 4px solid   #595959 ;
+            border-right: 4px solid  #595959;
+            box-shadow: 4px 6px 2px 1px #595959;
+
+        }
+
+        .login-heading {
+            text-align: center;
+
+        }
+
+        .login-reg-page {
+            color: red;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .login-reg-page:hover {
+            font-size: 17px;
+        }
+
+        .login-space {
+            margin-top: 10px;
+            padding-top: 10px;
+            margin-left: 6px;
+        }
+
+        .login-email {
+            margin-left: 10px;
+            display: block;
+            height: 35px;
+            width: 300px;
+            border: 1px solid black;
+        }
+
+        .login-password {
+            color: red;
+            text-align: right;
+            cursor: pointer;
+        }
+
+        .login-password:hover {
+            font-size: 17px;
+        }
+
+        .login-button {
+
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            background-color: #8c8c8c;
+            color: black;
+            width: 255px;
+            height: 45px;
+            border-radius: 10px;
+            font-size: 19px;
+            border: none;
+            cursor: pointer;
+            padding: 15px;
+
+        }
+
+        .login-button:hover {
+            width: 257px;
+            height: 47px;
+            background-color: #cc7a00;
+        }
+
+        .another-login {
+            text-align: center;
+        }
+
+        .login-img {
+            display: inline-block;
+            margin-left: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+            height: 40px;
+            width:35px;
+         }
+
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+
+        <div class="login-heading">
+            <h1>Login Here!</h1>
+            <p>Don't have an account?
+                <a href="registration-page.html">
+                    <span class="login-reg-page">Register Here</span>
+                </a>
+            </p>
+        </div>
+
+        <div>
+            <p class="login-space">email/mobile</p>
+            <input type="text" placeholder="Enter email or mobile" class="login-email" />
+        </div>
+
+        <div>
+            <p class="login-space">password</p>
+            <input type="password" placeholder="Enter your password" class="login-email" />
+        </div>
+
+        <div>
+            <p class="login-password">forgot password?</p>
+        </div>
+
+        <div>
+            <button class="login-button">Sign in</button>
+        </div>
+
+        <div class="another-login">
+            <p>-----------------------Login Via-----------------------</p>
+        </div>
+        <a
+            href="https://accounts.google.com/v3/signin/identifier?dsh=S1292728474%3A1688741266841393&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AeDOFXjEAQM9bDrwbd7oLtt5WQWoyOo9OrQFLlSs61YTrstw8SdoDuU5_Ka0R0EPLgdK_bbuchJ3VA&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+            <img src="C:\Users\Dell\Desktop\icp-6-group-13-html-css-project-1\img\google.png" class="login-img" />
+
+        </a>
+        <a href="https://www.facebook.com/">
+            <img src="C:\Users\Dell\Desktop\icp-6-group-13-html-css-project-1\img\facebook.png" class="login-img" />
+
+        </a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Flogin%2Fcheck%3Flang%3Den">
+            <img src="C:\Users\Dell\Desktop\icp-6-group-13-html-css-project-1\img\twitter.png" class="login-img" />
+        </a>
+
+    </div>
+
+</body>
+</html>
