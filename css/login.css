@@ -1,0 +1,97 @@
+body {
+    background-color: #808080;
+    margin: 0px;
+} 
+
+.login-container {
+    background-color: white;
+    height: 500px;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    border-top: 9px solid #595959;
+    border-bottom: 4px solid #595959;
+    border-left: 4px solid   #595959 ;
+    border-right: 4px solid  #595959;
+    box-shadow: 4px 6px 2px 1px #595959;
+
+}
+
+.login-heading {
+    text-align: center;
+
+}
+
+.login-reg-page {
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.login-reg-page:hover {
+    font-size: 17px;
+}
+
+.login-space {
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 6px;
+}
+
+.login-email {
+    margin-left: 10px;
+    display: block;
+    height: 35px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.login-password {
+    color: red;
+    text-align: right;
+    cursor: pointer;
+}
+
+.login-password:hover {
+    font-size: 17px;
+}
+
+.login-button {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #8c8c8c;
+    color: black;
+    width: 255px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+.login-button:hover {
+    width: 257px;
+    height: 47px;
+    background-color: #cc7a00;
+}
+
+.another-login {
+    text-align: center;
+}
+
+.login-img {
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 40px;
+    width:35px;
+ }
+
