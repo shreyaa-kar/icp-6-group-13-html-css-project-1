@@ -20,19 +20,19 @@ margin-left: 20px;
 border-radius: 0px 30px 0px 30px;
 }
 .search{
-display: left;
-}
-.input{
-width: 300px;
-height: 20px;
-border-radius: 50%;
-}
-.search1{
-height: 28px;
-width: 100px;
-margin-left: 10px;
-border-radius: 50%;
-}
+    display: left;
+    }
+    .input{
+    width: 300px;
+    height: 20px;
+    border-radius: 50%;
+    }
+    .search1{
+    height: 28px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 50%;
+    }
 
 .store-name {
 font-size: 24px;
@@ -51,8 +51,9 @@ padding: 20px;
 display: flex;
 margin: 20px;
 justify-content: space-around;
-font-style: italic;
+font-size:Sans-serif ;
 font-size: 20px;
+color: white;
 }
 .menus:hover{
 border: 1px solid white;
@@ -62,7 +63,7 @@ box-shadow: #f5f5f5 0px 0px 5px 2px;
 transition: 0.5s;
 border-radius: 30px;
 text-align: center;
-background-color: rgb(71, 67, 67);
+background-color: rgb(122, 112, 112);
 padding: -20px;
 }
 .menus{
@@ -104,7 +105,7 @@ background-color: rgb(238, 89, 89);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: larger;
+    font-size:Sans-serif ;
     height: 50px;
     font-weight: 100;
     font-size: 20px;
@@ -122,7 +123,7 @@ background-color: rgb(238, 89, 89);
   .navbar2 a:hover{
     border-radius: 15px 0 15px 0;
     padding: 3px;
-   background: linear-gradient(rgb(11, 107, 126), rgb(12, 12, 12));
+   background: linear-gradient(rgb(3, 43, 51), rgb(12, 12, 12));
     color: rgb(240, 239, 240);
     border: 2px solid rgb(239, 234, 234);
   }
@@ -156,8 +157,8 @@ margin-bottom: 10px;
 }
 }
 .shop-img{
-    height: 500px;
-    width: 700px;
+    height: 600px;
+    width: 850px;
     margin: 20px;
 }
 
@@ -185,18 +186,18 @@ margin-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    background-color: #b0916a;
-    color: black;
+    background-color:rgb(12, 12, 12) ;
+    color: white;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 10px;
     border: white;
     margin-top: 30px;
     margin-left: 660px;
     cursor: pointer;
 }
 .header-explore-btn:hover{
-    background-color: bisque ;
-    box-shadow: 0 0 5px 2px #b0916a;
+    background-color: black;
+    box-shadow: 0 0 5px 2px gray;
     padding: 7px 25px;
     transition: 0.5s;
 }
@@ -209,11 +210,12 @@ margin-bottom: 10px;
 
 .feature-card{
     width: 300px;
-    background-color:#b0916a ;
+    height: 380px;
+    background-color:rgb(59, 56, 56) ;
     padding: 10px;
     margin: 50px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px white;
     position: relative;
 }
 
@@ -224,22 +226,23 @@ margin-bottom: 10px;
     left: 90px;
     background-color: #fff;
     padding: 10px;
-    border: 1px solid #b0916a;
+    border: 1px solid black;
     border-radius: 10px;
-    color: #b0916a;
+    color: gray;
     width: 70px;
     text-align: center;
 }
 
 .feature-title{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 22px;
 }
 
 .feature-description{
     text-align: center;
     font-size: 25px;
+    color: white;
 }
 
 .feature-container{
@@ -258,11 +261,13 @@ margin-bottom: 10px;
 }
 
 .review-card{
-    background-color: #fff;
+    background-color: gray;
     width: 300px;
     padding: 20px 40px;
     margin: 20px;
+    border-width: 10px;
     border-radius: 10px;
+    border-color: black;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
@@ -278,7 +283,8 @@ margin-bottom: 10px;
     font-size: 25px;
 }
 .customer-review{
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .customers-review-container{
@@ -287,7 +293,7 @@ margin-bottom: 10px;
     justify-content: space-around;
     margin-top: 50px;
 }
-footer {
+.footer {
 background-color: rgb(52, 48, 48);
 padding: 40px 0;
 color: #f8f5f5;
@@ -299,14 +305,18 @@ font-family: cursive;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
+background-color: #3e3f3e;
 max-width: 100%;
 margin: 0 auto;
-height: 250px;
+height: 300px;
+
 }
 .logo2{
-margin-top: -20px;
-height: auto;
-width: auto;
+margin-top: 10px;
+margin-right: 10px;
+margin-right: 10px;
+height: 250px;
+width: 250;
 }
 
 .footer-column {
@@ -361,6 +371,7 @@ margin: 0 8px;
 font-size: 30px;
 
 }
+
 
 
 
@@ -440,5 +451,7 @@ flex-wrap: wrap;
       background-color: rgb(52, 48, 48); 
     }
   }
+
+ 
 
  
