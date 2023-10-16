@@ -4,6 +4,7 @@ body{
     background-color:#fff;
 }
 .navbar1 {
+  
 background-color: #080808;
 color: #fff;
 height: 80px;
@@ -444,6 +445,12 @@ flex-wrap: wrap;
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 768px) {
+    .footer-column {
+      width: 100%;
+      background-color: rgb(52, 48, 48); 
+    }
+  }
 
  
 
