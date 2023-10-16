@@ -90,6 +90,10 @@ background-color: rgb(238, 89, 89);
             display: flex;
             flex-wrap: wrap;
         } 
+        .contact-title{
+            font-size: 20px;
+            color: gray;
+        }
 
         .name-field{
             width: 800px;
@@ -319,7 +323,17 @@ font-size: 30px;
     font-size: 15px;
     height: 30px;
     width: 125px;
-    }        
+    }  
+     
+    .img{
+        width: 200px;
+        height: 250px;
+    margin-top: 20px;
+        margin-left: 35px;
+    } 
+    .contact-title{
+        font-size: 15px;
+    }     
       }
 
 
@@ -432,7 +446,16 @@ font-size: 30px;
     height: 30px;
     width: 125px;
     margin-left: 25px;
-    }           
+    }  
+    .img{
+        width: 200px;
+        height: 250px;
+    margin-top: 20px;
+        margin-left: 35px;
+    }  
+    .contact-title {
+        font-size: 12px;
+    }            
               
 }
 @media only screen and (min-width: 801px) and (max-width: 1400px){
