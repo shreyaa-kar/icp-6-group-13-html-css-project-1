@@ -1,0 +1,320 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color:#fff;
+}
+.navbar1 {
+background-color:#080808 ;
+color: #fff;
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo img {
+width: 400px ;
+height:80px;
+
+margin-left: 20px;
+border-radius: 0px 30px 0px 30px;
+}
+.search{
+  display: left;
+  height: 28px;
+  }
+  .input{
+  width: 300px;
+  height: 20px;
+  border-radius: 50%;
+  }
+  .search1{
+  height: 28px;
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 50%;
+  }
+
+.store-name {
+font-size: 24px;
+font-weight: bold;
+}
+
+.menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.menu {
+padding: 20px;
+display: flex;
+margin: 20px;
+justify-content: space-around;
+font-style: Sans-serif;
+font-size: 20px;
+text-decoration: none;
+}
+.menus:hover{
+border: 1px solid white;
+height: auto;
+width: auto;
+box-shadow: #f5f5f5 0px 0px 5px 2px;
+transition: 0.5s;
+border-radius: 30px;
+text-align: center;
+background-color: rgb(4, 196, 254);
+padding: -20px;
+}
+.menus{
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+margin: 10px;
+padding: 10px;
+
+}
+
+.search input {
+padding: 5px;
+border: none;
+border-radius: 3px;
+}
+
+.search button {
+background-color: #e74c3c;
+color: #fff;
+border: none;
+border-radius: 3px;
+padding: 5px 10px;
+cursor: pointer;
+}
+.search button:hover{
+border: 1px solid white;
+height: auto;
+width: 100px;
+box-shadow: #f5f5f5 0px 0px 5px 2px;
+transition: 0.5s;
+border-radius: 30px;
+text-align: center;
+background-color: rgb(238, 89, 89);
+
+}
+.navbar2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size:Sans-serif ;
+  height: 50px;
+  font-weight: 100;
+  font-size: 20px;
+
+}
+
+
+.navbar2 a {
+  color: #333;
+  text-decoration: none;
+  font-family:Sans-serif ;
+}
+
+
+.navbar2 a:hover{
+  border-radius: 15px 0 15px 0;
+  padding: 3px;
+ background: linear-gradient(rgb(6, 210, 251), rgb(12, 12, 12));
+  color: rgb(240, 239, 240);
+  border: 2px solid rgb(239, 234, 234);
+}
+
+.navbar a.active {
+border: 2px solid rgb(246, 241, 241);
+border-radius: 15px 0 15px 0;
+padding: 3px;
+box-shadow: 4px 3px rgb(246, 246, 248);
+background-color: black;
+color: white;
+}
+
+
+
+
+* {
+box-sizing: border-box;
+}
+
+
+/* first flexbox row */
+
+.flex-container {
+display: flex;
+flex-direction: row;
+
+font-size: 30px;
+text-align: center;
+justify-content:space-between;
+height: 260px;
+width: 100%;
+}
+
+.flex-item-left {
+
+padding: 20px;
+flex: 50%;
+width:100%; /*width of your image*/
+height:100%; /*height of your image*/
+background-image:url('https://media.npr.org/assets/img/2021/08/13/711gd93ifkl_custom-4da4cd0caaee24686552a01b6a9a5fe365b0e08d-s800-c85.jpeg');
+margin:30px; /* If you want no margin */
+padding:0; /*if your want to padding */
+background-size: 100% 100%;
+
+
+
+
+
+}
+
+.flex-item-right {
+
+padding: 20px;
+flex: 50%;
+width:100%; /*width of your image*/
+height:100%; /*height of your image*/
+background-image:url('https://iconbooks.com/wp-content/blogs.dir/24/files/2023/09/getimage-626-293x450.jpeg');
+margin:30px; /* If you want no margin */
+padding:20px; /*if your want to padding */
+background-size: cover;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+.flex-container {
+  flex-direction: column;
+}
+}
+
+
+/* second flex box  row*/
+
+.flex-container-box {
+margin-top: 60px;
+display: flex;
+flex-direction: row;
+
+font-size: 30px;
+text-align: center;
+justify-content:space-between;
+height: 240px;
+width: 100%;
+}
+
+.flex-left {
+background-color: #f1f1f1;
+padding: 20px;
+flex: 50%;
+width:100%; /*width of your image*/
+height:100%; /*height of your image*/
+background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK67Wrq6khA95XVObXRqfegwxo-ENM-yMGpQ&usqp=CAU');
+margin:30px; /* If you want no margin */
+padding:0; /*if your want to padding */
+background-size: 100% 100%;
+
+
+
+
+
+}
+
+.flex-right {
+background-color: dodgerblue;
+padding: 20px;
+flex: 50%;
+width:100%; /*width of your image*/
+height:100%; /*height of your image*/
+background-image:url('https://m.media-amazon.com/images/I/71uogpE88mL._AC_UF1000,1000_QL80_.jpg');
+margin:30px; /* If you want no margin */
+padding:20px; /*if your want to padding */
+background-size: cover;
+}
+
+/* footer */
+.footer {
+background-color: rgb(18, 206, 248);
+padding: 40px 0;
+
+text-align: center;
+font-family: cursive;
+}
+
+.footer-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+max-width: 100%;
+margin: 0 auto;
+height: 300px;
+background-color: #3e3f3e;
+margin-top: 50px;
+}
+.logo2{
+margin-top: 20px;
+height: 200px;
+width: 250px;
+}
+
+.footer-column {
+width: 265px;
+/* margin-bottom: 10px; */
+}
+
+h3 {
+font-size: 21px;
+margin-bottom: 15px;
+color: #edf3f3;
+}
+
+p {
+font-size: 14px;
+line-height: 1.5;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+ul li a {
+color: #f4f7f9;
+text-decoration: none;
+font-size: 17px;
+transition: color 0.3s ease;
+margin-bottom: 10px;
+}
+
+ul li a:hover {
+color: #f31212;
+}
+
+.social-icons {
+display: block;
+justify-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+
+}
+
+
+.social-icons li {
+margin: 0 8px;
+
+}
+
+.fa {
+font-size: 30px;
+
+}
+
+
+
