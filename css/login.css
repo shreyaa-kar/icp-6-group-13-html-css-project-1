@@ -65,21 +65,21 @@ body {
     margin-right: auto;
     display: block;
     background-color: #8c8c8c;
-    color: black;
-    width: 255px;
+    color: white;
+    width: 250px;
     height: 45px;
-    border-radius: 10px;
-    font-size: 19px;
+    border-radius: 6px;
+    font-size: 21px;
     border: none;
     cursor: pointer;
-    padding: 15px;
+    padding: 11px;
 
 }
 
 .login-button:hover {
     width: 257px;
     height: 47px;
-    background-color: #cc7a00;
+    background-color: #808080;
 }
 
 .another-login {
