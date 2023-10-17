@@ -1,131 +1,145 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    background-color: white;
-    .navbar1 {
-        background-color: #080808;
-        color: #fff;
-        height: 80px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        }
-        .logo img {
-        width: 400px ;
-        height:80px;
-        
-        margin-left: 20px;
-        border-radius: 0px 30px 0px 30px;
-        }
-        .search{
-        display: left;
-        }
-        .input{
-        width: 300px;
-        height: 20px;
-        border-radius: 50%;
-        }
-        .search1{
-        height: 28px;
-        width: 100px;
-        margin-left: 10px;
-        border-radius: 50%;
-        }
-        
-        .store-name {
-        font-size: 24px;
-        font-weight: bold;
-        }
-        
-        .menu ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        }
-        
-        .menu {
-        padding: 20px;
-        display: flex;
-        margin: 20px;
-        justify-content: space-around;
-        font-style: italic;
-        font-size: 20px;
-        }
-        .menus:hover{
-        border: 1px solid white;
-        height: auto;
-        width: auto;
-        box-shadow: #f5f5f5 0px 0px 5px 2px;
-        transition: 0.5s;
-        border-radius: 30px;
-        text-align: center;
-        background-color: rgb(71, 67, 67);
-        padding: -20px;
-        }
-        .menus{
-        text-decoration: none;
-        color: #fff;
-        font-weight: bold;
-        margin: 10px;
-        padding: 10px;
-        
-        }
-        
-        .search input {
-        padding: 5px;
-        border: none;
-        border-radius: 3px;
-        }
-        
-        .search button {
-        background-color: #e74c3c;
-        color: #fff;
-        border: none;
-        border-radius: 3px;
-        padding: 5px 10px;
-        cursor: pointer;
-        }
-        .search button:hover{
-        border: 1px solid white;
-        height: auto;
-        width: 100px;
-        box-shadow: #f5f5f5 0px 0px 5px 2px;
-        transition: 0.5s;
-        border-radius: 30px;
-        text-align: center;
-        background-color: rgb(238, 89, 89);
-        
-        }
-        .navbar2 {
-            background-color: white;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            font-size: larger;
-            height: 50px;
-            font-weight: 100;
-            font-size: 20px;
-        
-          }
-          
-        
-          .navbar2 a {
-            color: #333;
-            text-decoration: none;
-            font-family: cursive;
-          }
-        
-          
-          .navbar2 a:hover{
-            border-radius: 15px 0 15px 0;
-            padding: 3px;
-           background: linear-gradient(rgb(11, 107, 126), rgb(12, 12, 12));
-            color: rgb(240, 239, 240);
-            border: 2px solid rgb(239, 234, 234);
-          }
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+}
+.navbar1 {
+  
+background-color: #080808;
+color: #fff;
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo img {
+width: 400px ;
+height:80px;
+
+margin-left: 20px;
+border-radius: 0px 30px 0px 30px;
+}
+.search{
+    display: left;
+    }
+    .input{
+    width: 350px;
+    height: 30px;
+    border-radius: 50%;
+    }
+    .search1{
+    height: 35px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 50%;
+    }
+
+.store-name {
+font-size: 24px;
+font-weight: bold;
+}
+
+.menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.menu {
+padding: 20px;
+display: flex;
+margin: 20px;
+justify-content: space-around;
+font-size:Sans-serif;
+color: #fff;
+font-size: 25px;
+text-decoration: none;
+}
+.menus:hover{
+border: 1px solid white;
+height: auto;
+width: auto;
+box-shadow: #f5f5f5 0px 0px 5px 2px;
+transition: 0.5s;
+border-radius: 10px;
+text-align: center;
+background-color: rgb(122, 112, 112);
+padding: -20px;
+}
+.menus{
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+margin: 10px;
+padding: 10px;
 
 }
+
+.search input {
+padding: 5px;
+border: none;
+border-radius: 3px;
+}
+
+.search button {
+background-color: #e74c3c;
+color: #fff;
+border: none;
+border-radius: 3px;
+padding: 5px 10px;
+cursor: pointer;
+}
+.search button:hover{
+border: 1px solid white;
+height: auto;
+width: 100px;
+box-shadow: #f5f5f5 0px 0px 2px 2px;
+transition: 0.5s;
+border-radius: 5px;
+text-align: center;
+background-color: rgb(238, 89, 89);
+
+}
+.navbar2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:Sans-serif ;
+    height: 50px;
+    font-weight: 100;
+    font-size: 20px;
+
+  }
+  
+
+  .navbar2 a {
+    color: #333;
+    text-decoration: none;
+    font-family: cursive;
+  }
+
+  
+  .navbar2 a:hover{
+    border-radius: 15px 0 15px 0;
+    padding: 3px;
+   background: linear-gradient(rgb(3, 43, 51), rgb(12, 12, 12));
+    color: rgb(240, 239, 240);
+    border: 2px solid rgb(239, 234, 234);
+  }
+
+.navbar a.active {
+  border: 2px solid rgb(246, 241, 241);
+  border-radius: 15px 0 15px 0;
+  padding: 3px;
+  box-shadow: 4px 3px rgb(246, 246, 248);
+  background-color: black;
+  color: white;
+  }
+
+
+
 .our-book-heading{
     text-align: center;
 }
@@ -191,7 +205,7 @@ body{
                         margin-right: auto;
                     }
                     .Buy-now-btn:hover{
-                        background-color:rgb(97, 93, 93);
+                        background-color:rgb(156, 143, 143);
                         box-shadow: 0 0 5px 2px #fff;
                         padding: 7px 25px;
                        transition: 0.5s;
@@ -202,24 +216,25 @@ body{
                         flex-wrap: wrap;
                         justify-content: space-around;
                          }
+                         
                          footer {
                             background-color: rgb(52, 48, 48);
                             padding: 40px 0;
+                            width: 100%;
                             color: #f8f5f5;
                             text-align: center;
                             font-family: cursive;
-                            width: 100%;
+            
+                            
                             }
                             
                             .footer-container {
                             display: flex;
                             flex-wrap: wrap;
                             justify-content: space-evenly;
-                            width: 100%;
-                            margin: 0 auto;
+                            max-width: 100%;
+                            margin: 0px auto;
                             height: 250px;
-                            margin-bottom: 100px;
-                
                             }
                             .logo2{
                             margin-top: -20px;
@@ -229,14 +244,56 @@ body{
                             
                             .footer-column {
                             width: 265px;
-                            /* margin-bottom: 10px; */
+                              
                             }
-                            
+                             
                             h3 {
                             font-size: 21px;
                             margin-bottom: 15px;
                             color: #f4f1f1;
                             }
+                            
+                            p {
+                            font-size: 14px;
+                            line-height: 1.5;
+                            }
+                            
+                            ul {
+                            list-style: none;
+                            padding: 0;
+                            }
+                            
+                            ul li a {
+                            color: #fcfafa;
+                            text-decoration: none;
+                            font-size: 17px;
+                            transition: color 0.3s ease;
+                            margin-bottom: 10px;
+                            }
+                            
+                            ul li a:hover {
+                            color: #f31212;
+                            }
+                            
+                            .social-icons {
+                            display: block;
+                            justify-items: center;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 20px;
+                            
+                            }
+                             .social-icons li {
+                            margin: 0 8px;
+                            
+                            }
+                            .fa {
+                            font-size: 30px;
+                            }
+                            .footer-icon{
+                                height: 40px;
+                            }
+                           
                             
                             p {
                             font-size: 14px;
@@ -279,3 +336,6 @@ body{
                             font-size: 30px;
                             
                             }
+                            
+                            
+                            
