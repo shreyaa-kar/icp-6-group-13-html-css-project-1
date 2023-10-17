@@ -498,6 +498,9 @@ font-size: 30px;
 }
 
 
+
+/* card text css */
+
 .cardtext1{
   
   color: dodgerblue;
@@ -538,7 +541,33 @@ font-size: 30px;
   margin-top: 136px;
 }
 
+/* card hover effect css*/
+.flex-item-left1:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
 
+.flex-item-left1:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-right2:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.flex-item-right2:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-left3:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.flex-item-left3:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
 
 
 
