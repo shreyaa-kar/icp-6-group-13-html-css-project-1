@@ -1,0 +1,311 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+}
+.navbar1 {
+  
+  background-color: #080808;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .logo img {
+  width: 400px ;
+  height:80px;
+  
+  margin-left: 20px;
+  border-radius: 0px 30px 0px 30px;
+  }
+  .search{
+      display: left;
+      }
+      .input{
+      width: 350px;
+      height: 30px;
+      border-radius: 50%;
+      }
+      .search1{
+      height: 35px;
+      width: 100px;
+      margin-left: 10px;
+      border-radius: 50%;
+      }
+  
+  .store-name {
+  font-size: 24px;
+  font-weight: bold;
+  }
+  
+  .menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+  
+  .menu {
+  padding: 20px;
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  font-size:Sans-serif;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  }
+  .menus:hover{
+  border: 1px solid white;
+  height: auto;
+  width: auto;
+  box-shadow: #f5f5f5 0px 0px 5px 2px;
+  transition: 0.5s;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(122, 112, 112);
+  padding: -20px;
+  }
+  .menus{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  
+  }
+  
+  .search input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  }
+  
+  .search button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  }
+  .search button:hover{
+  border: 1px solid white;
+  height: auto;
+  width: 100px;
+  box-shadow: #f5f5f5 0px 0px 2px 2px;
+  transition: 0.5s;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(238, 89, 89);
+  
+  }
+    .navbar2 {
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: larger;
+        height: 50px;
+        font-weight: 100;
+        font-size: 20px;
+    
+      }
+      
+    
+      .navbar2 a {
+        color: #333;
+        text-decoration: none;
+        font-family: cursive;
+      }
+    
+      
+      .navbar2 a:hover{
+        border-radius: 15px 0 15px 0;
+        padding: 3px;
+       background: linear-gradient(rgb(11, 107, 126), rgb(12, 12, 12));
+        color: rgb(240, 239, 240);
+        border: 2px solid rgb(239, 234, 234);
+      }
+    
+    .navbar a.active {
+      border: 2px solid rgb(246, 241, 241);
+      border-radius: 15px 0 15px 0;
+      padding: 3px;
+      box-shadow: 4px 3px rgb(246, 246, 248);
+      background-color: black;
+      color: white;
+      }
+      .about-us-heading{
+        font-size: 50px;
+        text-align: center;
+        margin: 50px;
+    }
+
+    .about-page-img{
+        height: 400px;
+        width: 130vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-page-description{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+        text-align: center;
+    }
+    .about-page-describe{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .about-page-heading{
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    footer {
+      background-color: rgb(52, 48, 48);
+      padding: 40px 0;
+      color: #f8f5f5;
+      text-align: center;
+      font-family: cursive;
+      }
+      
+      .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      max-width: 100%;
+      margin: 0 auto;
+      height: 250px;
+      }
+      .logo2{
+      margin-top: -20px;
+      height: auto;
+      width: auto;
+      }
+      
+      .footer-column {
+      width: 265px;
+      margin-bottom: 10px;
+      }
+      
+      h3 {
+      font-size: 21px;
+      margin-bottom: 15px;
+      color: #f4f1f1;
+      }
+      
+      p {
+      font-size: 14px;
+      line-height: 1.5;
+      }
+      
+      ul {
+      list-style: none;
+      padding: 0;
+      }
+      
+      ul li a {
+      color: #fcfafa;
+      text-decoration: none;
+      font-size: 17px;
+      transition: color 0.3s ease;
+      margin-bottom: 10px;
+      }
+      
+      ul li a:hover {
+      color: #f31212;
+      }
+      
+      .social-icons {
+      display: block;
+      justify-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      
+      }
+      
+      
+      .social-icons li {
+      margin: 0 8px;
+      
+      }
+      
+      .fa {
+      font-size: 30px;
+      
+      }
+
+      @media only screen and (max-width: 600px){
+        .logo img {
+            width: 250px ;
+            height:40px;
+            margin-left: 130px;
+        }
+        .navbar1{
+            display: flex;
+            flex-wrap: wrap;
+            height: 150px;
+            padding: 20px;
+        }
+        .menu{
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .search{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .navbar2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size:Sans-serif ;
+            height: 90px;
+            font-weight: 50px;
+            font-size: 20px;
+            padding: 15px;
+        }
+        .about-us-heading{
+          font-size: 40px;
+        }
+        .about-page-description{
+          font-size: 20px;
+          margin-top: 30px;
+          margin-left: 60px;
+          margin-right: 60px;
+          text-align: center;
+        }
+        .about-page-img{
+          width: 60vh;
+          height: 40vh;
+        }
+        .about-page-heading{
+          font-size: 25px;
+          margin-left: 50px;
+        }
+        .about-page-describe{
+          font-size: 20px;
+          margin-left: 60px;
+          margin-right: 60px;
+        }
+        .logo2{
+          height: 200px;
+          margin-top: 25px;
+        }
+        .footer-container{
+          height: auto;
+        }
+
+      }
