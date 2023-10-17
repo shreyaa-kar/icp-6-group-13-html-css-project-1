@@ -4,7 +4,8 @@ body{
   background-color:#fff;
 }
 .navbar1 {
-background-color:#080808 ;
+
+background-color: #080808;
 color: #fff;
 height: 80px;
 display: flex;
@@ -20,15 +21,14 @@ border-radius: 0px 30px 0px 30px;
 }
 .search{
   display: left;
-  height: 28px;
   }
   .input{
-  width: 300px;
-  height: 20px;
+  width: 350px;
+  height: 30px;
   border-radius: 50%;
   }
   .search1{
-  height: 28px;
+  height: 35px;
   width: 100px;
   margin-left: 10px;
   border-radius: 50%;
@@ -51,8 +51,9 @@ padding: 20px;
 display: flex;
 margin: 20px;
 justify-content: space-around;
-font-style: Sans-serif;
-font-size: 20px;
+font-size:Sans-serif;
+color: #fff;
+font-size: 25px;
 text-decoration: none;
 }
 .menus:hover{
@@ -61,9 +62,9 @@ height: auto;
 width: auto;
 box-shadow: #f5f5f5 0px 0px 5px 2px;
 transition: 0.5s;
-border-radius: 30px;
+border-radius: 10px;
 text-align: center;
-background-color: rgb(4, 196, 254);
+background-color: rgb(122, 112, 112);
 padding: -20px;
 }
 .menus{
@@ -93,9 +94,9 @@ cursor: pointer;
 border: 1px solid white;
 height: auto;
 width: 100px;
-box-shadow: #f5f5f5 0px 0px 5px 2px;
+box-shadow: #f5f5f5 0px 0px 2px 2px;
 transition: 0.5s;
-border-radius: 30px;
+border-radius: 5px;
 text-align: center;
 background-color: rgb(238, 89, 89);
 
@@ -116,14 +117,14 @@ background-color: rgb(238, 89, 89);
 .navbar2 a {
   color: #333;
   text-decoration: none;
-  font-family:Sans-serif ;
+  font-family: cursive;
 }
 
 
 .navbar2 a:hover{
   border-radius: 15px 0 15px 0;
   padding: 3px;
- background: linear-gradient(rgb(6, 210, 251), rgb(12, 12, 12));
+ background: linear-gradient(rgb(3, 43, 51), rgb(12, 12, 12));
   color: rgb(240, 239, 240);
   border: 2px solid rgb(239, 234, 234);
 }
@@ -139,457 +140,202 @@ color: white;
 
 
 
-
-* {
-box-sizing: border-box;
+.our-book-heading{
+  text-align: center;
 }
 
-
-/* first flexbox row */
-
-.flex-container {
-display: flex;
-flex-direction: row;
-
-font-size: 30px;
-text-align:center;
-justify-content:space-between;
-height: 190px;
-width: 100%;
-margin-left: 35px;
-}
-
-.flex-item-left1 {
-padding: 10px;
-flex: 50%;
-width:100%; /*width of your image*/
-height:100%; /*height of your image*/
-background-image:url('https://media.npr.org/assets/img/2021/08/13/711gd93ifkl_custom-4da4cd0caaee24686552a01b6a9a5fe365b0e08d-s800-c85.jpeg');
-margin:30px; /* If you want no margin */
-background-size: 100% 100%;
-
-
-
-
-
-}
-
-.flex-item-right2 {
-
-padding: 20px;
-flex: 50%;
-width:100%; /*width of your image*/
-height:100%; /*height of your image*/
-background-image:url('https://iconbooks.com/wp-content/blogs.dir/24/files/2023/09/getimage-626-293x450.jpeg');
-margin:30px; /* If you want no margin */
-padding:20px; /*if your want to padding */
-background-size: cover;
-}
-
-
-.flex-item-left3 {
-
-  padding: 20px;
-  flex: 50%;
-  width:100%; /*width of your image*/
-  height:100%; /*height of your image*/
-  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-qIuP6vM0IFt0X-Undb29y2Khv9GBpJIZUzsiqRgiNpNLPLhkD0UPO1FUJVE_PNMJQc&usqp=CAU');
-  margin:30px; /* If you want no margin */
-  padding:0; /*if your want to padding */
-  background-size: 100% 100%;
-  
-  
-  
-  
-  
-  }
-  
-  .flex-item-right4 {
-  
-  padding: 20px;
-  flex: 50%;
-  width:100%; /*width of your image*/
-  height:100%; /*height of your image*/
-  background-image:url('https://m.media-amazon.com/images/I/71jVC6Vln6L._AC_UF1000,1000_QL80_.jpg');
-  margin:30px; /* If you want no margin */
-  padding:20px; /*if your want to padding */
-  background-size: cover;
-  }
-
-  .flex-item-left5 {
-
-    padding: 20px;
-    flex: 50%;
-    width:100%; /*width of your image*/
-    height:100%; /*height of your image*/
-    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBAoORVRaGDTZTSfqFX_0n1J4PGTnezpl5n9Ml2hgEAkQanTxotfOMrVwcWcdvA7cxKU&usqp=CAU');
-    margin:30px; /* If you want no margin */
-    padding:0; /*if your want to padding */
-    background-size: 100% 100%;
-    
-    
-    
-    
-    
-    }
-    
-    .flex-item-right6 {
-    
-    padding: 20px;
-    flex: 50%;
-    width:100%; /*width of your image*/
-    height:100%; /*height of your image*/
-    background-image:url('https://oldbookdepot.in/wp-content/uploads/2022/09/Autobiography-of-Benjamin-Franklin.jpg');
-    margin:30px; /* If you want no margin */
-    padding:20px; /*if your want to padding */
-    background-size: cover;
-    }
-
-.flex-item-left7 {
-
-    padding: 20px;
-    flex: 50%;
-    width:100%; /*width of your image*/
-    height:100%; /*height of your image*/
-    background-image:url('https://m.media-amazon.com/images/I/51HiJot0LKL._SL500_.jpg');
-    margin:30px; /* If you want no margin */
-    padding:0; /*if your want to padding */
-    background-size: 100% 100%;
-     
-    
-    }
-    
-    .flex-item-right8 {
-    
-    padding: 20px;
-    flex: 50%;
-    width:100%; /*width of your image*/
-    height:100%; /*height of your image*/
-    background-image:url('https://m.media-amazon.com/images/I/51jn7eu9QkL._AC_UF1000,1000_QL80_.jpg');
-    margin:30px; /* If you want no margin */
-    padding:20px; /*if your want to padding */
-    background-size: cover;
-    }
-
-
-
-
-
-
-
-
-
-/* Responsive layout - makes a one column-layout instead of two-column layout */
-@media (max-width: 800px) {
-.flex-container {
-  flex-direction: row;
-}
-}
-
-
-/* second flex box  row*/
-
-.flex-container-box {
-margin-top: 70px;
-display: flex;
-flex-direction: row;
-
-font-size: 30px;
-text-align: center;
-justify-content:space-between;
-height: 190px;
-width: 100%;
-margin-left: 35px;
-}
-
-.flex-left11 {
-background-color: #f1f1f1;
-padding: 20px;
-flex: 50%;
-width:100%; /*width of your image*/
-height:100%; /*height of your image*/
-background-image:url('https://s.lubimyczytac.pl/upload/books/5023000/5023172/993493-352x500.jpg');
-margin:30px; /* If you want no margin */
-padding:0; /*if your want to padding */
-background-size: 100% 100%;
-
-
-
-
-
-}
-
-.flex-right22 {
-background-color: dodgerblue;
-padding: 20px;
-flex: 50%;
-width:100%; /*width of your image*/
-height:100%; /*height of your image*/
-background-image:url('https://m.media-amazon.com/images/I/71uogpE88mL._AC_UF1000,1000_QL80_.jpg');
-margin:30px; /* If you want no margin */
-padding:20px; /*if your want to padding */
-background-size: cover;
-}
-
-.flex-left33 {
-  background-color: #f1f1f1;
-  padding: 20px;
-  flex: 50%;
-  width:100%; /*width of your image*/
-  height:100%; /*height of your image*/
-  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK67Wrq6khA95XVObXRqfegwxo-ENM-yMGpQ&usqp=CAU');
-  margin:30px; /* If you want no margin */
-  padding:0; /*if your want to padding */
-  background-size: 100% 100%;
-  
-  
-  
-  
-  
-  }
-  
-  .flex-right44 {
-  background-color: dodgerblue;
-  padding: 20px;
-  flex: 50%;
-  width:100%; /*width of your image*/
-  height:100%; /*height of your image*/
-  background-image:url('https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781635573534.jpg');
-  margin:30px; /* If you want no margin */
-  padding:20px; /*if your want to padding */
-  background-size: cover;
-  }
-
-  .flex-left55 {
-    background-color: #f1f1f1;
-    padding: 20px;
-    flex: 50%;
-    width:100%; /*width of your image*/
-    height:100%; /*height of your image*/
-    background-image:url('https://99bookscart-assets.s3.ap-south-1.amazonaws.com/9780099460138.png');
-    margin:30px; /* If you want no margin */
-    padding:0; /*if your want to padding */
-    background-size: 100% 100%;
-    
-    
-    
-    
-    
-    }
-    
-    .flex-right66 {
-    background-color: dodgerblue;
-    padding: 20px;
-    flex: 50%;
-    width:100%; /*width of your image*/
-    height:100%; /*height of your image*/
-    background-image:url('https://hachette.imgix.net/books/9781474601528.jpg?auto=compress&w=440');
-    margin:30px; /* If you want no margin */
-    padding:20px; /*if your want to padding */
-    background-size: cover;
-    }
-
-
-    .flex-left77 {
-      background-color: #f1f1f1;
-      padding: 20px;
-      flex: 50%;
-      width:100%; /*width of your image*/
-      height:100%; /*height of your image*/
-      background-image:url('https://99bookscart-assets.s3.ap-south-1.amazonaws.com/9780099460138.png');
-      margin:30px; /* If you want no margin */
-      padding:0; /*if your want to padding */
-      background-size: 100% 100%;
+.book-title{
+              font-size: 40px;
+              color:black;
+              margin-top: 50px;
+              margin-left: 20px;
+          }
+          .book-card{
+              background-color:grey;
+              width: 240px;
+              padding: 20px 40px;
+              margin: 20px;
+              border-radius: 5px;
+              box-shadow: 0  0 10px black;
+              border: black;
       
-      
-      
-      
-      
-      }
-      
-      .flex-right88 {
-      background-color: dodgerblue;
-      padding: 20px;
-      flex: 50%;
-      width:100%; /*width of your image*/
-      height:100%; /*height of your image*/
-      background-image:url('https://hachette.imgix.net/books/9781474601528.jpg?auto=compress&w=440');
-      margin:30px; /* If you want no margin */
-      padding:20px; /*if your want to padding */
-      background-size: cover;
-      }
-
-/* footer */
-.footer {
-background-color: rgb(18, 206, 248);
-padding: 40px 0;
-
-text-align: center;
-font-family: cursive;
-}
-
-.footer-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-max-width: 100%;
-margin: 0 auto;
-height: 300px;
-background-color: #3e3f3e;
-margin-top: 50px;
-}
-.logo2{
-margin-top: 20px;
-height: 200px;
-width: 250px;
-}
-
-.footer-column {
-width: 265px;
-/* margin-bottom: 10px; */
-}
-
-h3 {
-font-size: 21px;
-margin-bottom: 15px;
-color: #edf3f3;
-}
-
-p {
-font-size: 14px;
-line-height: 1.5;
-}
-
-ul {
-list-style: none;
-padding: 0;
-}
-
-ul li a {
-color: #f4f7f9;
-text-decoration: none;
-font-size: 17px;
-transition: color 0.3s ease;
-margin-bottom: 10px;
-}
-
-ul li a:hover {
-color: #f31212;
-}
-
-.social-icons {
-display: block;
-justify-items: center;
-margin-left: auto;
-margin-right: auto;
-margin-top: 20px;
-
-}
-
-
-.social-icons li {
-margin: 0 8px;
-
-}
-
-.fa {
-font-size: 30px;
-
-}
-
-
-
-/* card text css */
-
-.cardtext1{
-  
-  color: dodgerblue;
-  margin-top: 180px;
-}
-.cardtext2{
-  
-  color: dodgerblue;
-  margin-top: 136px;
-}
-.cardtext3{
-  
-  color: dodgerblue;
-  margin-top: 157px;
-}
-.cardtext4{
-  
-  color: dodgerblue;
-  margin-top: 134px;
-}
-.cardtext5{
-  
-  color: dodgerblue;
-  margin-top: 157px;
-}
-.cardtext6{
-  
-  color: dodgerblue;
-  margin-top: 136px;
-}
-.cardtext7{
-  
-  color: dodgerblue;
-  margin-top: 157px;
-}.cardtext8{
-  
-  color: dodgerblue;
-  margin-top: 136px;
-}
-
-/* card hover effect css*/
-.flex-item-left1:hover { 
-  transform: scale(1.05);
-}
-
-.flex-item-left1:active {
-  transform: scale(0.95) rotateZ(1.7deg);
-}
-
-.flex-item-right2:hover {
-  transform: scale(1.05);
-}
-
-.flex-item-right2:active {
-  transform: scale(0.95) rotateZ(1.7deg);
-}
-
-.flex-item-left3:hover {
-  transform: scale(1.05);
-}
-
-.flex-item-left3:active {
-  transform: scale(0.95) rotateZ(1.7deg);
-}
-
-
-.flex-item-right4:hover {
-  transform: scale(1.05);
-}
-
-.flex-item-right4:active {
-  transform: scale(0.95) rotateZ(1.7deg);
-}
-
-.flex-item-left5:hover {
-  transform: scale(1.05);
-}
-
-.flex-item-left5:active {
-  transform: scale(0.95) rotateZ(1.7deg);
-}
-
-.flex-item-right6:hover {
-  transform: scale(1.05);
-}
-
-.flex-item-right6:active {
-  transform: scale(0.95) rotateZ(1.7deg);
-}
-
-
-
+          }
+          .book-card:hover{
+              background-color:rgb(97, 93, 93);
+              cursor: pointer;
+              border-radius:10px black;
+              box-shadow: 0 0 10px black ;
+          }
+          .book-card-img{
+              height: 200px;
+              width:250px ;
+              display: block;
+              margin: 5px auto;
+              
+              
+          }
+          
+          .book-card-title{
+              text-align: center;
+             color: black;
+               font-size: 30px;
+                  }
+                  .book-card-price{
+                      text-align: center;
+                      color:black;
+                      font-size: 25px;
+                  }
+                  .book-description{
+                      text-align: center;
+                      color: black;
+                      font-size: 25px;
+                  }
+                  .Buy-now-btn{
+                      background-color: white;
+                      color: black;
+                      font-size: 18px;
+                      font-weight: bold;
+                      padding: 5px 20px;
+                      border: solid;
+                      border-radius: 15px;
+                      margin-top: 20px;
+                      cursor: pointer;
+                      display: block;
+                      margin-left: auto;
+                      margin-right: auto;
+                  }
+                  .Buy-now-btn:hover{
+                      background-color:rgb(156, 143, 143);
+                      box-shadow: 0 0 5px 2px #fff;
+                      padding: 7px 25px;
+                     transition: 0.5s;
+                      
+                  }
+                       .book-container-1{
+                      display: flex;
+                      flex-wrap: wrap;
+                      justify-content: space-around;
+                       }
+                       
+                       footer {
+                          background-color: rgb(52, 48, 48);
+                          padding: 40px 0;
+                          width: 100%;
+                          color: #f8f5f5;
+                          text-align: center;
+                          font-family: cursive;
+          
+                          
+                          }
+                          
+                          .footer-container {
+                          display: flex;
+                          flex-wrap: wrap;
+                          justify-content: space-evenly;
+                          max-width: 100%;
+                          margin: 0px auto;
+                          height: 250px;
+                          }
+                          .logo2{
+                          margin-top: -20px;
+                          height: auto;
+                          width: auto;
+                          }
+                          
+                          .footer-column {
+                          width: 265px;
+                            
+                          }
+                           
+                          h3 {
+                          font-size: 21px;
+                          margin-bottom: 15px;
+                          color: #f4f1f1;
+                          }
+                          
+                          p {
+                          font-size: 14px;
+                          line-height: 1.5;
+                          }
+                          
+                          ul {
+                          list-style: none;
+                          padding: 0;
+                          }
+                          
+                          ul li a {
+                          color: #fcfafa;
+                          text-decoration: none;
+                          font-size: 17px;
+                          transition: color 0.3s ease;
+                          margin-bottom: 10px;
+                          }
+                          
+                          ul li a:hover {
+                          color: #f31212;
+                          }
+                          
+                          .social-icons {
+                          display: block;
+                          justify-items: center;
+                          margin-left: auto;
+                          margin-right: auto;
+                          margin-top: 20px;
+                          
+                          }
+                           .social-icons li {
+                          margin: 0 8px;
+                          
+                          }
+                          .fa {
+                          font-size: 30px;
+                          }
+                          .footer-icon{
+                              height: 40px;
+                          }
+                         
+                          
+                          p {
+                          font-size: 14px;
+                          line-height: 1.5;
+                          }
+                          
+                          ul {
+                          list-style: none;
+                          padding: 0;
+                          }
+                          
+                          ul li a {
+                          color: #fcfafa;
+                          text-decoration: none;
+                          font-size: 17px;
+                          transition: color 0.3s ease;
+                          margin-bottom: 10px;
+                          }
+                          
+                          ul li a:hover {
+                          color: #f31212;
+                          }
+                          
+                          .social-icons {
+                          display: block;
+                          justify-items: center;
+                          margin-left: auto;
+                          margin-right: auto;
+                          margin-top: 20px;
+                          
+                          }
+                          
+                          
+                          .social-icons li {
+                          margin: 0 8px;
+                          
+                          }
+                          
+                          .fa {
+                          font-size: 30px;
+                          
+                          }
+                          
+                          
+                          
