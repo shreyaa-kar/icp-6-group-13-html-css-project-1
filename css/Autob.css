@@ -152,21 +152,20 @@ display: flex;
 flex-direction: row;
 
 font-size: 30px;
-text-align: center;
+text-align:center;
 justify-content:space-between;
-height: 260px;
+height: 190px;
 width: 100%;
+margin-left: 35px;
 }
 
 .flex-item-left1 {
-
-padding: 20px;
+padding: 10px;
 flex: 50%;
 width:100%; /*width of your image*/
 height:100%; /*height of your image*/
 background-image:url('https://media.npr.org/assets/img/2021/08/13/711gd93ifkl_custom-4da4cd0caaee24686552a01b6a9a5fe365b0e08d-s800-c85.jpeg');
 margin:30px; /* If you want no margin */
-padding:0; /*if your want to padding */
 background-size: 100% 100%;
 
 
@@ -246,6 +245,32 @@ background-size: cover;
     background-size: cover;
     }
 
+.flex-item-left7 {
+
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://m.media-amazon.com/images/I/51HiJot0LKL._SL500_.jpg');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+     
+    
+    }
+    
+    .flex-item-right8 {
+    
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://m.media-amazon.com/images/I/51jn7eu9QkL._AC_UF1000,1000_QL80_.jpg');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
+
 
 
 
@@ -265,15 +290,16 @@ background-size: cover;
 /* second flex box  row*/
 
 .flex-container-box {
-margin-top: 60px;
+margin-top: 70px;
 display: flex;
 flex-direction: row;
 
 font-size: 30px;
 text-align: center;
 justify-content:space-between;
-height: 240px;
+height: 190px;
 width: 100%;
+margin-left: 35px;
 }
 
 .flex-left11 {
@@ -362,6 +388,36 @@ background-size: cover;
     padding:20px; /*if your want to padding */
     background-size: cover;
     }
+
+
+    .flex-left77 {
+      background-color: #f1f1f1;
+      padding: 20px;
+      flex: 50%;
+      width:100%; /*width of your image*/
+      height:100%; /*height of your image*/
+      background-image:url('https://99bookscart-assets.s3.ap-south-1.amazonaws.com/9780099460138.png');
+      margin:30px; /* If you want no margin */
+      padding:0; /*if your want to padding */
+      background-size: 100% 100%;
+      
+      
+      
+      
+      
+      }
+      
+      .flex-right88 {
+      background-color: dodgerblue;
+      padding: 20px;
+      flex: 50%;
+      width:100%; /*width of your image*/
+      height:100%; /*height of your image*/
+      background-image:url('https://hachette.imgix.net/books/9781474601528.jpg?auto=compress&w=440');
+      margin:30px; /* If you want no margin */
+      padding:20px; /*if your want to padding */
+      background-size: cover;
+      }
 
 /* footer */
 .footer {
