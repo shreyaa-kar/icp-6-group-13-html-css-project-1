@@ -276,13 +276,13 @@ height: 240px;
 width: 100%;
 }
 
-.flex-left {
+.flex-left11 {
 background-color: #f1f1f1;
 padding: 20px;
 flex: 50%;
 width:100%; /*width of your image*/
 height:100%; /*height of your image*/
-background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK67Wrq6khA95XVObXRqfegwxo-ENM-yMGpQ&usqp=CAU');
+background-image:url('https://s.lubimyczytac.pl/upload/books/5023000/5023172/993493-352x500.jpg');
 margin:30px; /* If you want no margin */
 padding:0; /*if your want to padding */
 background-size: 100% 100%;
@@ -293,7 +293,7 @@ background-size: 100% 100%;
 
 }
 
-.flex-right {
+.flex-right22 {
 background-color: dodgerblue;
 padding: 20px;
 flex: 50%;
@@ -304,6 +304,64 @@ margin:30px; /* If you want no margin */
 padding:20px; /*if your want to padding */
 background-size: cover;
 }
+
+.flex-left33 {
+  background-color: #f1f1f1;
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK67Wrq6khA95XVObXRqfegwxo-ENM-yMGpQ&usqp=CAU');
+  margin:30px; /* If you want no margin */
+  padding:0; /*if your want to padding */
+  background-size: 100% 100%;
+  
+  
+  
+  
+  
+  }
+  
+  .flex-right44 {
+  background-color: dodgerblue;
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7uJ_SRMiKMa03EgJ5PKzufqPuDUrHBsgDC1qTtveS8ZqU440Ho6-98mn5O6DJca7MBdA&usqp=CAU');
+  margin:30px; /* If you want no margin */
+  padding:20px; /*if your want to padding */
+  background-size: cover;
+  }
+
+  .flex-left55 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://99bookscart-assets.s3.ap-south-1.amazonaws.com/9780099460138.png');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+    
+    
+    
+    
+    
+    }
+    
+    .flex-right66 {
+    background-color: dodgerblue;
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://hachette.imgix.net/books/9781474601528.jpg?auto=compress&w=440');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
 
 /* footer */
 .footer {
