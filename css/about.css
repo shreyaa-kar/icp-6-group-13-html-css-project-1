@@ -188,6 +188,11 @@ body{
       border-color: black;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
+
+  .team-card:hover{
+    box-shadow: 0 0 5px 2px black;
+    transition: 0.5s;
+  }
   
   .team-member-image{
       width: 250px;
