@@ -152,21 +152,20 @@ display: flex;
 flex-direction: row;
 
 font-size: 30px;
-text-align: center;
+text-align:center;
 justify-content:space-between;
-height: 260px;
+height: 190px;
 width: 100%;
+margin-left: 35px;
 }
 
-.flex-item-left {
-
-padding: 20px;
+.flex-item-left1 {
+padding: 10px;
 flex: 50%;
 width:100%; /*width of your image*/
 height:100%; /*height of your image*/
 background-image:url('https://media.npr.org/assets/img/2021/08/13/711gd93ifkl_custom-4da4cd0caaee24686552a01b6a9a5fe365b0e08d-s800-c85.jpeg');
 margin:30px; /* If you want no margin */
-padding:0; /*if your want to padding */
 background-size: 100% 100%;
 
 
@@ -175,7 +174,7 @@ background-size: 100% 100%;
 
 }
 
-.flex-item-right {
+.flex-item-right2 {
 
 padding: 20px;
 flex: 50%;
@@ -187,10 +186,103 @@ padding:20px; /*if your want to padding */
 background-size: cover;
 }
 
+
+.flex-item-left3 {
+
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-qIuP6vM0IFt0X-Undb29y2Khv9GBpJIZUzsiqRgiNpNLPLhkD0UPO1FUJVE_PNMJQc&usqp=CAU');
+  margin:30px; /* If you want no margin */
+  padding:0; /*if your want to padding */
+  background-size: 100% 100%;
+  
+  
+  
+  
+  
+  }
+  
+  .flex-item-right4 {
+  
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://m.media-amazon.com/images/I/71jVC6Vln6L._AC_UF1000,1000_QL80_.jpg');
+  margin:30px; /* If you want no margin */
+  padding:20px; /*if your want to padding */
+  background-size: cover;
+  }
+
+  .flex-item-left5 {
+
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBAoORVRaGDTZTSfqFX_0n1J4PGTnezpl5n9Ml2hgEAkQanTxotfOMrVwcWcdvA7cxKU&usqp=CAU');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+    
+    
+    
+    
+    
+    }
+    
+    .flex-item-right6 {
+    
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://oldbookdepot.in/wp-content/uploads/2022/09/Autobiography-of-Benjamin-Franklin.jpg');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
+
+.flex-item-left7 {
+
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://m.media-amazon.com/images/I/51HiJot0LKL._SL500_.jpg');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+     
+    
+    }
+    
+    .flex-item-right8 {
+    
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://m.media-amazon.com/images/I/51jn7eu9QkL._AC_UF1000,1000_QL80_.jpg');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
+
+
+
+
+
+
+
+
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
 .flex-container {
-  flex-direction: column;
+  flex-direction: row;
 }
 }
 
@@ -198,24 +290,25 @@ background-size: cover;
 /* second flex box  row*/
 
 .flex-container-box {
-margin-top: 60px;
+margin-top: 70px;
 display: flex;
 flex-direction: row;
 
 font-size: 30px;
 text-align: center;
 justify-content:space-between;
-height: 240px;
+height: 190px;
 width: 100%;
+margin-left: 35px;
 }
 
-.flex-left {
+.flex-left11 {
 background-color: #f1f1f1;
 padding: 20px;
 flex: 50%;
 width:100%; /*width of your image*/
 height:100%; /*height of your image*/
-background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK67Wrq6khA95XVObXRqfegwxo-ENM-yMGpQ&usqp=CAU');
+background-image:url('https://s.lubimyczytac.pl/upload/books/5023000/5023172/993493-352x500.jpg');
 margin:30px; /* If you want no margin */
 padding:0; /*if your want to padding */
 background-size: 100% 100%;
@@ -226,7 +319,7 @@ background-size: 100% 100%;
 
 }
 
-.flex-right {
+.flex-right22 {
 background-color: dodgerblue;
 padding: 20px;
 flex: 50%;
@@ -237,6 +330,94 @@ margin:30px; /* If you want no margin */
 padding:20px; /*if your want to padding */
 background-size: cover;
 }
+
+.flex-left33 {
+  background-color: #f1f1f1;
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK67Wrq6khA95XVObXRqfegwxo-ENM-yMGpQ&usqp=CAU');
+  margin:30px; /* If you want no margin */
+  padding:0; /*if your want to padding */
+  background-size: 100% 100%;
+  
+  
+  
+  
+  
+  }
+  
+  .flex-right44 {
+  background-color: dodgerblue;
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781635573534.jpg');
+  margin:30px; /* If you want no margin */
+  padding:20px; /*if your want to padding */
+  background-size: cover;
+  }
+
+  .flex-left55 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://99bookscart-assets.s3.ap-south-1.amazonaws.com/9780099460138.png');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+    
+    
+    
+    
+    
+    }
+    
+    .flex-right66 {
+    background-color: dodgerblue;
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://hachette.imgix.net/books/9781474601528.jpg?auto=compress&w=440');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
+
+
+    .flex-left77 {
+      background-color: #f1f1f1;
+      padding: 20px;
+      flex: 50%;
+      width:100%; /*width of your image*/
+      height:100%; /*height of your image*/
+      background-image:url('https://99bookscart-assets.s3.ap-south-1.amazonaws.com/9780099460138.png');
+      margin:30px; /* If you want no margin */
+      padding:0; /*if your want to padding */
+      background-size: 100% 100%;
+      
+      
+      
+      
+      
+      }
+      
+      .flex-right88 {
+      background-color: dodgerblue;
+      padding: 20px;
+      flex: 50%;
+      width:100%; /*width of your image*/
+      height:100%; /*height of your image*/
+      background-image:url('https://hachette.imgix.net/books/9781474601528.jpg?auto=compress&w=440');
+      margin:30px; /* If you want no margin */
+      padding:20px; /*if your want to padding */
+      background-size: cover;
+      }
 
 /* footer */
 .footer {
@@ -314,6 +495,100 @@ margin: 0 8px;
 .fa {
 font-size: 30px;
 
+}
+
+
+
+/* card text css */
+
+.cardtext1{
+  
+  color: dodgerblue;
+  margin-top: 180px;
+}
+.cardtext2{
+  
+  color: dodgerblue;
+  margin-top: 136px;
+}
+.cardtext3{
+  
+  color: dodgerblue;
+  margin-top: 157px;
+}
+.cardtext4{
+  
+  color: dodgerblue;
+  margin-top: 134px;
+}
+.cardtext5{
+  
+  color: dodgerblue;
+  margin-top: 157px;
+}
+.cardtext6{
+  
+  color: dodgerblue;
+  margin-top: 136px;
+}
+.cardtext7{
+  
+  color: dodgerblue;
+  margin-top: 157px;
+}.cardtext8{
+  
+  color: dodgerblue;
+  margin-top: 136px;
+}
+
+/* card hover effect css*/
+.flex-item-left1:hover { 
+  transform: scale(1.05);
+}
+
+.flex-item-left1:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-right2:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-right2:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-left3:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-left3:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+.flex-item-right4:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-right4:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-left5:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-left5:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-right6:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-right6:active {
+  transform: scale(0.95) rotateZ(1.7deg);
 }
 
 
