@@ -64,19 +64,21 @@ body {
     width: 136px;
     padding: 14px;
     background-color: #8c8c8c;
-    color: black;
+    color: white;
     border: none;
-    border-radius: 6px;
-    font-size: 20px;
+    border-radius: 5px;
+    font-size: 22px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
 
 
 }
 
 .register-btn:hover {
-    background-color: #cc7a00;
+    background-color:#808080 ;
+    width: 140px;
+    height: 47px;
 }
 
 .message {
