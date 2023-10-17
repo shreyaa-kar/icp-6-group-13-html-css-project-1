@@ -44,6 +44,7 @@ list-style: none;
 margin: 0;
 padding: 0;
 display: flex;
+text-decoration: none;
 }
 
 .menu {
@@ -138,8 +139,6 @@ background-color: rgb(238, 89, 89);
   color: white;
   }
 
-
-
 .our-book-heading{
     text-align: center;
 }
@@ -148,14 +147,17 @@ background-color: rgb(238, 89, 89);
                 font-size: 40px;
                 color:black;
                 margin-top: 50px;
+                margin-bottom: 70px;
                 margin-left: 20px;
+                margin-left: 40px;
             }
             .book-card{
-                background-color:grey;
+                background-color:rgb(59, 56, 56) ;
                 width: 240px;
                 padding: 20px 40px;
                 margin: 20px;
-                border-radius: 5px;
+                margin-bottom: 100px;
+                border-radius: 30px 5px 30px 5px;
                 box-shadow: 0  0 10px black;
                 border: black;
         
@@ -177,17 +179,17 @@ background-color: rgb(238, 89, 89);
             
             .book-card-title{
                 text-align: center;
-               color: black;
+               color: white;
                  font-size: 30px;
                     }
                     .book-card-price{
                         text-align: center;
-                        color:black;
+                        color:white;
                         font-size: 25px;
                     }
                     .book-description{
                         text-align: center;
-                        color: black;
+                        color: white;
                         font-size: 25px;
                     }
                     .Buy-now-btn{
@@ -205,7 +207,7 @@ background-color: rgb(238, 89, 89);
                         margin-right: auto;
                     }
                     .Buy-now-btn:hover{
-                        background-color:rgb(156, 143, 143);
+                        background-color:rgb(240, 69, 69);
                         box-shadow: 0 0 5px 2px #fff;
                         padding: 7px 25px;
                        transition: 0.5s;
@@ -216,126 +218,83 @@ background-color: rgb(238, 89, 89);
                         flex-wrap: wrap;
                         justify-content: space-around;
                          }
-                         
-                         footer {
-                            background-color: rgb(52, 48, 48);
-                            padding: 40px 0;
-                            width: 100%;
-                            color: #f8f5f5;
-                            text-align: center;
-                            font-family: cursive;
-            
-                            
-                            }
-                            
-                            .footer-container {
-                            display: flex;
-                            flex-wrap: wrap;
-                            justify-content: space-evenly;
-                            max-width: 100%;
-                            margin: 0px auto;
-                            height: 250px;
-                            }
-                            .logo2{
-                            margin-top: -20px;
-                            height: auto;
-                            width: auto;
-                            }
-                            
-                            .footer-column {
-                            width: 265px;
-                              
-                            }
-                             
-                            h3 {
-                            font-size: 21px;
-                            margin-bottom: 15px;
-                            color: #f4f1f1;
-                            }
-                            
-                            p {
-                            font-size: 14px;
-                            line-height: 1.5;
-                            }
-                            
-                            ul {
-                            list-style: none;
-                            padding: 0;
-                            }
-                            
-                            ul li a {
-                            color: #fcfafa;
-                            text-decoration: none;
-                            font-size: 17px;
-                            transition: color 0.3s ease;
-                            margin-bottom: 10px;
-                            }
-                            
-                            ul li a:hover {
-                            color: #f31212;
-                            }
-                            
-                            .social-icons {
-                            display: block;
-                            justify-items: center;
-                            margin-left: auto;
-                            margin-right: auto;
-                            margin-top: 20px;
-                            
-                            }
-                             .social-icons li {
-                            margin: 0 8px;
-                            
-                            }
-                            .fa {
-                            font-size: 30px;
-                            }
-                            .footer-icon{
-                                height: 40px;
-                            }
-                           
-                            
-                            p {
-                            font-size: 14px;
-                            line-height: 1.5;
-                            }
-                            
-                            ul {
-                            list-style: none;
-                            padding: 0;
-                            }
-                            
-                            ul li a {
-                            color: #fcfafa;
-                            text-decoration: none;
-                            font-size: 17px;
-                            transition: color 0.3s ease;
-                            margin-bottom: 10px;
-                            }
-                            
-                            ul li a:hover {
-                            color: #f31212;
-                            }
-                            
-                            .social-icons {
-                            display: block;
-                            justify-items: center;
-                            margin-left: auto;
-                            margin-right: auto;
-                            margin-top: 20px;
-                            
-                            }
+  footer {
+    background-color: rgb(52, 48, 48);
+    padding: 40px 0;
+    width: 100%;
+    color: #f8f5f5;
+    text-align: center;
+    font-family: cursive;
+    
+    }
+    
+    .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: 0px auto;
+    height: 250px;
+    }
+    .logo2{
+    margin-top: -20px;
+    height: auto;
+    width: auto;
+    }
+    
+    .footer-column {
+    width: 265px;
+      
+    }
+     
+    h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: #f4f1f1;
+    }
+    
+    p {
+    font-size: 14px;
+    line-height: 1.5;
+    }
+    
+    ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    ul li a {
+    color: #fcfafa;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+    }
+    
+    ul li a:hover {
+    color: #f31212;
+    }
+    
+    .social-icons {
+    display: block;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+    }
+     .social-icons li {
+    margin: 0 8px;
+    
+    }
+    .fa {
+    font-size: 30px;
+    }
+    .footer-icon{
+        height: 40px;
+    }
                             
                             
-                            .social-icons li {
-                            margin: 0 8px;
-                            
-                            }
-                            
-                            .fa {
-                            font-size: 30px;
-                            
-                            }
                             
                             
                             

@@ -144,11 +144,12 @@ body{
     }
 
     .about-page-img{
-        height: 400px;
-        width: 130vh;
+        height: 500px;
+        width: 140vh;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 10px;
     }
 
     .about-page-description{
@@ -170,6 +171,57 @@ body{
         margin-left: 100px;
         margin-top: 50px;
     }
+    .our-team-heading{
+      font-size: 50px;
+      color: black;
+      text-align: center;
+      margin-top: 50px;
+    }
+  
+  .team-card{
+      background-color: gray;
+      width: 250px;
+      padding: 20px 40px;
+      margin: 20px;
+      border-width: 10px;
+      border-radius: 5px 30px 5px 30px;
+      border-color: black;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+
+  .team-card:hover{
+    box-shadow: 0 0 5px 2px black;
+    transition: 0.5s;
+  }
+  
+  .team-member-image{
+      width: 250px;
+      display: block;
+      margin: 5px auto;
+      border-radius: 50%;
+  }
+  
+  .team-member-name{
+      text-align: center;
+      color: black;
+      font-size: 25px;
+  }
+  .team-member-info{
+      font-size: 25px;
+      text-align: center;
+  }
+  
+  .our-team-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 50px;
+  }
+
+  .github-icon{
+    font-size: 50px;
+    margin-left: 100px;
+  }
     footer {
       background-color: rgb(52, 48, 48);
       padding: 40px 0;
