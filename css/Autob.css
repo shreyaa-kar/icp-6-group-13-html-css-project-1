@@ -1,12 +1,12 @@
 body{
-    padding: 0;
-    margin: 0;
-    background-color:#fff;
+  padding: 0;
+  margin: 0;
+  background-color:#fff;
 }
 .navbar1 {
-background-color: #a804ba;
+background-color:#080808 ;
 color: #fff;
-height: 60px;
+height: 80px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -19,19 +19,20 @@ margin-left: 20px;
 border-radius: 0px 30px 0px 30px;
 }
 .search{
-display: left;
-}
-.input{
-width: 300px;
-height: 20px;
-border-radius: 50%;
-}
-.search1{
-height: 28px;
-width: 100px;
-margin-left: 10px;
-border-radius: 50%;
-}
+  display: left;
+  height: 28px;
+  }
+  .input{
+  width: 300px;
+  height: 20px;
+  border-radius: 50%;
+  }
+  .search1{
+  height: 28px;
+  width: 100px;
+  margin-left: 10px;
+  border-radius: 50%;
+  }
 
 .store-name {
 font-size: 24px;
@@ -100,115 +101,237 @@ background-color: rgb(238, 89, 89);
 
 }
 .navbar2 {
-    background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size:Sans-serif ;
-    height: 50px;
-    font-weight: 100;
-    font-size: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size:Sans-serif ;
+  height: 50px;
+  font-weight: 100;
+  font-size: 20px;
 
-  }
-  
+}
 
-  .navbar2 a {
-    color: #333;
-    text-decoration: none;
-    font-family:Sans-serif ;
-  }
 
-  
-  .navbar2 a:hover{
-    border-radius: 15px 0 15px 0;
-    padding: 3px;
-   background: linear-gradient(rgb(6, 210, 251), rgb(12, 12, 12));
-    color: rgb(240, 239, 240);
-    border: 2px solid rgb(239, 234, 234);
-  }
+.navbar2 a {
+  color: #333;
+  text-decoration: none;
+  font-family:Sans-serif ;
+}
 
-.navbar a.active {
-  border: 2px solid rgb(246, 241, 241);
+
+.navbar2 a:hover{
   border-radius: 15px 0 15px 0;
   padding: 3px;
-  box-shadow: 4px 3px rgb(246, 246, 248);
-  background-color: black;
-  color: white;
+ background: linear-gradient(rgb(6, 210, 251), rgb(12, 12, 12));
+  color: rgb(240, 239, 240);
+  border: 2px solid rgb(239, 234, 234);
+}
+
+.navbar a.active {
+border: 2px solid rgb(246, 241, 241);
+border-radius: 15px 0 15px 0;
+padding: 3px;
+box-shadow: 4px 3px rgb(246, 246, 248);
+background-color: black;
+color: white;
 }
 
 
 
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 
 /* first flexbox row */
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
-  
-  font-size: 30px;
-  text-align: center;
-  justify-content:space-between;
-  height: 260px;
-  width: 100%;
+display: flex;
+flex-direction: row;
+
+font-size: 30px;
+text-align:center;
+justify-content:space-between;
+height: 190px;
+width: 100%;
+margin-left: 35px;
 }
 
-.flex-item-left {
+.flex-item-left1 {
+padding: 10px;
+flex: 50%;
+width:100%; /*width of your image*/
+height:100%; /*height of your image*/
+background-image:url('https://media.npr.org/assets/img/2021/08/13/711gd93ifkl_custom-4da4cd0caaee24686552a01b6a9a5fe365b0e08d-s800-c85.jpeg');
+margin:30px; /* If you want no margin */
+background-size: 100% 100%;
+
+
+
+
+
+}
+
+.flex-item-right2 {
+
+padding: 20px;
+flex: 50%;
+width:100%; /*width of your image*/
+height:100%; /*height of your image*/
+background-image:url('https://iconbooks.com/wp-content/blogs.dir/24/files/2023/09/getimage-626-293x450.jpeg');
+margin:30px; /* If you want no margin */
+padding:20px; /*if your want to padding */
+background-size: cover;
+}
+
+
+.flex-item-left3 {
 
   padding: 20px;
   flex: 50%;
   width:100%; /*width of your image*/
   height:100%; /*height of your image*/
-  background-image:url('https://media.npr.org/assets/img/2021/08/13/711gd93ifkl_custom-4da4cd0caaee24686552a01b6a9a5fe365b0e08d-s800-c85.jpeg');
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-qIuP6vM0IFt0X-Undb29y2Khv9GBpJIZUzsiqRgiNpNLPLhkD0UPO1FUJVE_PNMJQc&usqp=CAU');
   margin:30px; /* If you want no margin */
   padding:0; /*if your want to padding */
   background-size: 100% 100%;
-
   
   
   
-
-}
-
-.flex-item-right {
+  
+  
+  }
+  
+  .flex-item-right4 {
   
   padding: 20px;
   flex: 50%;
   width:100%; /*width of your image*/
   height:100%; /*height of your image*/
-  background-image:url('https://iconbooks.com/wp-content/blogs.dir/24/files/2023/09/getimage-626-293x450.jpeg');
+  background-image:url('https://m.media-amazon.com/images/I/71jVC6Vln6L._AC_UF1000,1000_QL80_.jpg');
   margin:30px; /* If you want no margin */
   padding:20px; /*if your want to padding */
   background-size: cover;
-}
+  }
+
+  .flex-item-left5 {
+
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBAoORVRaGDTZTSfqFX_0n1J4PGTnezpl5n9Ml2hgEAkQanTxotfOMrVwcWcdvA7cxKU&usqp=CAU');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+    
+    
+    
+    
+    
+    }
+    
+    .flex-item-right6 {
+    
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://oldbookdepot.in/wp-content/uploads/2022/09/Autobiography-of-Benjamin-Franklin.jpg');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
+
+.flex-item-left7 {
+
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://m.media-amazon.com/images/I/51HiJot0LKL._SL500_.jpg');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+     
+    
+    }
+    
+    .flex-item-right8 {
+    
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://m.media-amazon.com/images/I/51jn7eu9QkL._AC_UF1000,1000_QL80_.jpg');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
+
+
+
+
+
+
+
+
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
+.flex-container {
+  flex-direction: row;
+}
 }
 
 
 /* second flex box  row*/
 
 .flex-container-box {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-  
-  font-size: 30px;
-  text-align: center;
-  justify-content:space-between;
-  height: 240px;
-  width: 100%;
+margin-top: 70px;
+display: flex;
+flex-direction: row;
+
+font-size: 30px;
+text-align: center;
+justify-content:space-between;
+height: 190px;
+width: 100%;
+margin-left: 35px;
 }
 
-.flex-left {
+.flex-left11 {
+background-color: #f1f1f1;
+padding: 20px;
+flex: 50%;
+width:100%; /*width of your image*/
+height:100%; /*height of your image*/
+background-image:url('https://s.lubimyczytac.pl/upload/books/5023000/5023172/993493-352x500.jpg');
+margin:30px; /* If you want no margin */
+padding:0; /*if your want to padding */
+background-size: 100% 100%;
+
+
+
+
+
+}
+
+.flex-right22 {
+background-color: dodgerblue;
+padding: 20px;
+flex: 50%;
+width:100%; /*width of your image*/
+height:100%; /*height of your image*/
+background-image:url('https://m.media-amazon.com/images/I/71uogpE88mL._AC_UF1000,1000_QL80_.jpg');
+margin:30px; /* If you want no margin */
+padding:20px; /*if your want to padding */
+background-size: cover;
+}
+
+.flex-left33 {
   background-color: #f1f1f1;
   padding: 20px;
   flex: 50%;
@@ -218,103 +341,255 @@ background-color: rgb(238, 89, 89);
   margin:30px; /* If you want no margin */
   padding:0; /*if your want to padding */
   background-size: 100% 100%;
-
   
   
   
-
-}
-
-.flex-right {
+  
+  
+  }
+  
+  .flex-right44 {
   background-color: dodgerblue;
   padding: 20px;
   flex: 50%;
   width:100%; /*width of your image*/
   height:100%; /*height of your image*/
-  background-image:url('https://m.media-amazon.com/images/I/71uogpE88mL._AC_UF1000,1000_QL80_.jpg');
+  background-image:url('https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781635573534.jpg');
   margin:30px; /* If you want no margin */
   padding:20px; /*if your want to padding */
   background-size: cover;
+  }
+
+  .flex-left55 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://99bookscart-assets.s3.ap-south-1.amazonaws.com/9780099460138.png');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+    
+    
+    
+    
+    
+    }
+    
+    .flex-right66 {
+    background-color: dodgerblue;
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://hachette.imgix.net/books/9781474601528.jpg?auto=compress&w=440');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
+
+
+    .flex-left77 {
+      background-color: #f1f1f1;
+      padding: 20px;
+      flex: 50%;
+      width:100%; /*width of your image*/
+      height:100%; /*height of your image*/
+      background-image:url('https://99bookscart-assets.s3.ap-south-1.amazonaws.com/9780099460138.png');
+      margin:30px; /* If you want no margin */
+      padding:0; /*if your want to padding */
+      background-size: 100% 100%;
+      
+      
+      
+      
+      
+      }
+      
+      .flex-right88 {
+      background-color: dodgerblue;
+      padding: 20px;
+      flex: 50%;
+      width:100%; /*width of your image*/
+      height:100%; /*height of your image*/
+      background-image:url('https://hachette.imgix.net/books/9781474601528.jpg?auto=compress&w=440');
+      margin:30px; /* If you want no margin */
+      padding:20px; /*if your want to padding */
+      background-size: cover;
+      }
+
+/* footer */
+.footer {
+background-color: rgb(18, 206, 248);
+padding: 40px 0;
+
+text-align: center;
+font-family: cursive;
 }
 
-  /* footer */
-.footer {
-  background-color: rgb(18, 206, 248);
-  padding: 40px 0;
+.footer-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+max-width: 100%;
+margin: 0 auto;
+height: 300px;
+background-color: #3e3f3e;
+margin-top: 50px;
+}
+.logo2{
+margin-top: 20px;
+height: 200px;
+width: 250px;
+}
+
+.footer-column {
+width: 265px;
+/* margin-bottom: 10px; */
+}
+
+h3 {
+font-size: 21px;
+margin-bottom: 15px;
+color: #edf3f3;
+}
+
+p {
+font-size: 14px;
+line-height: 1.5;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+ul li a {
+color: #f4f7f9;
+text-decoration: none;
+font-size: 17px;
+transition: color 0.3s ease;
+margin-bottom: 10px;
+}
+
+ul li a:hover {
+color: #f31212;
+}
+
+.social-icons {
+display: block;
+justify-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+
+}
+
+
+.social-icons li {
+margin: 0 8px;
+
+}
+
+.fa {
+font-size: 30px;
+
+}
+
+
+
+/* card text css */
+
+.cardtext1{
   
-  text-align: center;
-  font-family: cursive;
-  }
+  color: dodgerblue;
+  margin-top: 180px;
+}
+.cardtext2{
   
-  .footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  max-width: 100%;
-  margin: 0 auto;
-  height: 250px;
-  background-color: #047d7d;
-  margin-top: 50px;
-  }
-  .logo2{
-  margin-top: -20px;
-  height: auto;
-  width: auto;
-  }
+  color: dodgerblue;
+  margin-top: 136px;
+}
+.cardtext3{
   
-  .footer-column {
-  width: 265px;
-  /* margin-bottom: 10px; */
-  }
+  color: dodgerblue;
+  margin-top: 157px;
+}
+.cardtext4{
   
-  h3 {
-  font-size: 21px;
-  margin-bottom: 15px;
-  color: #edf3f3;
-  }
+  color: dodgerblue;
+  margin-top: 134px;
+}
+.cardtext5{
   
-  p {
-  font-size: 14px;
-  line-height: 1.5;
-  }
+  color: dodgerblue;
+  margin-top: 157px;
+}
+.cardtext6{
   
-  ul {
-  list-style: none;
-  padding: 0;
-  }
+  color: dodgerblue;
+  margin-top: 136px;
+}
+.cardtext7{
   
-  ul li a {
-  color: #f4f7f9;
-  text-decoration: none;
-  font-size: 17px;
-  transition: color 0.3s ease;
-  margin-bottom: 10px;
-  }
+  color: dodgerblue;
+  margin-top: 157px;
+}.cardtext8{
   
-  ul li a:hover {
-  color: #f31212;
-  }
-  
-  .social-icons {
-  display: block;
-  justify-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  
-  }
-  
-  
-  .social-icons li {
-  margin: 0 8px;
-  
-  }
-  
-  .fa {
-  font-size: 30px;
-  
-  }
-  
-  
-  
- 
+  color: dodgerblue;
+  margin-top: 136px;
+}
+
+/* card hover effect css*/
+.flex-item-left1:hover { 
+  transform: scale(1.05);
+}
+
+.flex-item-left1:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-right2:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-right2:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-left3:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-left3:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+.flex-item-right4:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-right4:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-left5:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-left5:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-right6:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-right6:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+

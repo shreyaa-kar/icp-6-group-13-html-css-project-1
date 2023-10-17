@@ -3,207 +3,75 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
-    <style>
-        body{
-            padding: 0;
-            margin: 0;
-            background-color:rgb(253, 237, 218);
-        }
+    <link rel="stylesheet" href="../css/about.css">
     
-        .navbar{
-            background-color:#b0916a ;
-            padding: 10px;
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .navbar-icon{
-            height: 130px;
-        }
-
-        .navbar-brand-name{
-            font-size: 50px;
-            color: #fff;
-            font-weight: bold;
-            margin-left: 10px;
-            margin-bottom: 50px;
-        }
-
-        .navbar-menu{
-            font-size: 25px;
-            font-weight: bold;
-            margin-left: 10px;
-            cursor: pointer;
-            background-color: #ffffff;
-            color: black;
-            padding: 5px 15px;
-            border: white;
-            border-radius: 50px;
-            border-color: #fff;
-        }
-
-        .navbar-menu:hover{
-            background-color: bisque;
-            box-shadow: 0 0 5px 2px bisque;
-            padding: 7px 25px;
-            transition: 0.5s;
-        }
-
-        .navbar-menu-container{
-            margin-left: 200px;
-
-        }
-
-        .about-us-heading{
-            font-size: 50px;
-            text-align: center;
-            margin: 50px;
-        }
-
-        .about-page-img{
-            height: 400px;
-            width: 130vh;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 30px;
-        }
-
-        .about-page-description{
-            font-size: 30px;
-            margin-top: 30px;
-            margin-left: 120px;
-            margin-right: 120px;
-            text-align: center;
-        }
-        .about-page-describe{
-            font-size: 30px;
-            margin-top: 30px;
-            margin-left: 120px;
-            margin-right: 120px;
-        }
-
-        .about-page-heading{
-            font-size: 30px;
-            margin-left: 100px;
-            margin-top: 50px;
-        }
-
-        .footer-tagline{
-            background-color: black;
-            color: #fff;
-            font-size: 25px;
-            display: block;
-            text-align: center;
-            padding: 10px;
-        }
-
-        .footer{
-            background-color:#b0916a ;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-
-        .footer-items-container{
-            width: 400px;
-            color: #fff;
-            display: block;
-            text-align: center;
-        }
-
-        .footer-items{
-            font-size: 25px;
-        }
-
-        .footer-tabs{
-            font-size: 20px;
-            cursor: pointer;
-        }
-
-        .footer-tabs:hover{
-            color: black;
-            transition: 0.5s;
-        }
-
-        @media only screen and (max-width: 600px){
-            .navbar-menu-container{
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            .navbar{
-                flex-direction: column;
-            }
-
-            .navbar-brand-name{
-                font-size: 35px;
-            }
-            .navbar-menu{
-                display: block;
-                margin: 10px;
-                width: 100%;
-                text-align: center;
-            }
-
-            .navbar-icon{
-                height: 80px;
-                width: 80px;
-            }
-
-            .about-page-img{
-                height: 300px;
-                width: 60vh;
-            }
-
-            .footer-tagline{
-                font-size: 20px;
-            }
-        }
-
-
-    </style>
 </head>
 <body>
-    <div class="navbar">
-        <div class="navbar-brand">
     
-           <img src="https://cdn-icons-png.flaticon.com/128/2280/2280294.png" class="navbar-icon"/>
-           <span class="navbar-brand-name">GRACE BOOKSTORE</span>
-      
-        </div>
-        
-        <div class="navbar-menu-container">
-          <div>
-            <a href="login.html"> <span class="navbar-menu">Login</span> </a>
-            <a href="home page.html"> <span class="navbar-menu">Home</span> </a>
-            <a href="Search.html"> <span class="navbar-menu">Search</span> </a>
-           <span class="navbar-menu">About</span>
-           <a href="contact.html"> <span class="navbar-menu">Contact</span> </a>
-        
-          </div>
-        </div>
-    </div>
+    <nav class="navbar1">
 
+        <div class="logo">
+                <img src="../img/logo1.png" alt="Bookstore Logo">
+                 
+            </div>
+
+           
+                <div class="search">
+                  
+                    <input class="input" type="text" placeholder="Search...">
+              <button class="search1">Search</button>
+                </div>
+            
+                <div class="menu">
+
+    
+                  <a href="../index.html"><div class="menus">Home</div></a>
+                  <a href="login.html"><div class="menus">Login</div></a>
+                 <a href="about.html"> <div class="menus">About us</div></a>
+                 <a href="contact.html"><div class="menus">Contact us</div></a>  
+      
+            </div>
+
+            </nav>
+            <header>
+                <nav>
+                    <div class="navbar2">
+                        <a href="comedy.html">Comedy</a>
+                        <a href="fantasy.html">Fanatasy</a>
+                        <a href="science fiction.html">Science Fiction</a>
+                        <a href="thriller.html">Thriller</a>
+                        <a href="autobiographies.html">Autobiography</a>
+                        <a href="diaries.html" >Diaries</a>
+                        <a href="travelogues.html">Travelogues</a>
+                         <a href="biographies.html" >Biographies</a>
+
+                      </div>
+                </nav>
+              </header>
+              <hr>
+            
+
+   
+  </div>
     <div>
         <h1 class="about-us-heading">ABOUT US</h1>
         <p class="about-page-description">Books are an infinite source of knowledge. The only thing that can replace a book is another book. But how to find that title which isn't available in the bookstore near your home? Yes, you guessed it right-online Bookstores. In one click, you can browse through thousands of titles. Find your favourite book in the format you prefer at our online bookstore.</p>
-        <img src="./img/about-page-image.jpg" class="about-page-img" />
-    </div>
+
+        <img src="../img/about-page-image.jpg" class="about-page-img" />
+      </div>
 
     <div>
-        <h3 class="about-page-heading">#1 ONLINE BOOKSTORE IN INDIA</h3>
+        <h2 class="about-page-heading">#1 ONLINE BOOKSTORE IN INDIA</h2>
         <p class="about-page-describe">Found in 2023, Grace Bookstore is a platform where you can find all kinds of books. We offer readers the opportunity to buy a wide range of books online at affordable prices. Readers can avail of our services from all over India. Our store provides a wide variety of genres, including motivational books, romance books, fiction books, non-fiction books etc.</br></br></p>
     </div>
 
     <div>
-        <h3 class="about-page-heading">OUR AIM</h3>
+        <h2 class="about-page-heading">OUR AIM</h2>
         <p class="about-page-describe">Our goal is to provide readers with the books they want without them having to put themselves on a book-buying ban. Thus, we have Introduced a wide range of categories to offer the best quality books at affordable rates.</Br></br></p>
     </div>
 
     <div>
-        <h3 class="about-page-heading">Why Should You Choose Grace Bookstore?</h3>
+        <h2 class="about-page-heading">Why Should You Choose Grace Bookstore?</h2>
         <ul class="about-page-describe"><c>
             <li>Best Quality Books</li>
             <li>Wide Variety Of Books</li>
@@ -219,27 +87,116 @@
     </div>
 
     <div>
-        <h3 class="about-page-heading">CONCLUSION</h3>
+        <h2 class="about-page-heading">CONCLUSION</h2>
         <p class="about-page-describe">At Grace Bookstore, we strive to provide the best services to our buyers in the era of competition, overpricing and forgery. We aim to provide services through which the user can buy the best books online at the cheapest prices. Here, you can get copies of your favourite books in a pocket-friendly way.</p></br></br>
     </div>
 
-    <div class="footer-tagline">We have 1000+ happy customers and counting...</div>
+    <h1 class="our-team-heading">Our Team</h1>
+    <div class="our-team-container">
+        <div class="team-card">
+            <img src="../img/sanket-img.jpg" class="team-member-image"/>
+            <h3 class="team-member-name">Sanket Bhure</h3>
+            <p class="team-member-info">Priyadarshini College of Engineering, Nagpur</p><br/>
+            <a href="https://github.com/sanketbhure"><i class="fa-brands fa-github github-icon"></i></a>
+        </div></br></br>
 
-    <div class="footer">
-        <div class="footer-items-container">
-            <h3 class="footer-items">Quick Links</h3>
-            <p class="footer-tabs">Home</p>
-            <p class="footer-tabs">Search</p>
-            <p class="footer-tabs">Contact</p>
-            <p class="footer-tabs">About</p>
-        </div>
+        <div class="team-card">
+            <img src="../img/shreya-img.jpeg" class="team-member-image"/>
+            <h3 class="team-member-name">Shreya Kar</h3>
+            <p class="team-member-info">Sadabai Raisoni Women's College, Nagpur</p>
+            <a href="https://github.com/shreyaa-kar"><i class="fa-brands fa-github github-icon"></i></a>
+        </div></br></br>
 
-        <div class="footer-items-container">
-            <h3 class="footer-items">CONTACT US</h3>
-            <p class="footer-tabs"> <i class="fa-solid fa-location-dot "></i> &nbsp; Our Head Office, </br>Sadar, Nagpur<br/> Maharashtra - 441122</p>
-            <p class="footer-tabs"><i class="fa-solid fa-phone"></i> &nbsp; +91-9766279925</p>
-            <p class="footer-tabs"><i class="fa-solid fa-envelope"></i> &nbsp; gracebookstore@gmail.com</p>
+        <div class="team-card">
+          <img src="../img/ishwari-img.jpeg" class="team-member-image"/>
+          <h3 class="team-member-name">Ishwari Yadav</h3>
+          <p class="team-member-info"> R.S.M.D.P College</p><br/> <br/><br/><br/>
+          <a href="https://github.com/ishwari-yadav123"><i class="fa-brands fa-github github-icon"></i></a>
+      </div></br></br>
+
+      <div class="team-card">
+        <img src="../img/ritik-img.jpeg" class="team-member-image"/>
+        <h3 class="team-member-name">Ritik Mahukhaye</h3>
+        <p class="team-member-info">G H Raisoni Amravati University</p><br/><br/>
+        <a href="https://github.com/RITIKMAHUKHAYE"><i class="fa-brands fa-github github-icon"></i></a>
+    </div></br></br>
+
+    <div class="team-card">
+      <img src="../img/khushi-img.jpeg" class="team-member-image"/>
+      <h3 class="team-member-name">Khushi Khan</h3>
+      <p class="team-member-info"> Ramdeobaba College of Engineering, Nagpur</p>
+      <a href="https://github.com/khushi4452"><i class="fa-brands fa-github github-icon"></i></a>
+  </div></br></br>
+
+  <div class="team-card">
+    <img src="../img/apoorva-img.jpeg" class="team-member-image"/>
+    <h3 class="team-member-name">Apoorva Moon</h3>
+    <p class="team-member-info">Tulshiramjl Gaikwad Patil College of Engineering, Nagpur</p>
+    <a href="https://github.com/moon123apoorva"><i class="fa-brands fa-github github-icon"></i></a>
+</div></br></br>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-column">
+                <img class ="logo2" src="../img/logo2.png">
+              </div>
+      
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+              <li><a href="#"><i class="social-iconss">
+                <img src="../img/instagram.png"height="40px">
+                </i></a></li>
+              <li><a href="#"><i class="social-iconss">
+                <img src="../img/twitter.png"height="40px">
+              </i></a></li>
+              <li><a href="#"><i class="social-iconss">
+                <img src="../img/facebook.png"height="40px">  
+              </i></a></li>
+              <li><a href="#"><i class="social-iconss">
+                <img src="../img/youtube.png" height="40px">
+              </i></a></li>
+            </ul>
+          </div>
+      
+         
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul>
+              <li><a href="#"> <img src="../img/telephone.png" height="40" >123-456-789</a></li>
+              <li><a href="#"> <img src="../img/gmail (1).png" height="40">gracebook@gmail.com</a></li>
+              <li><a href="#"> <img src="../img/placeholder.png" height="40">Sadar (Nagpur)</a></li>
+              <li><a href="#"> <img src="../img/whatsapp.png" height="40">987-654-321</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-column">
+            <h3>Help</h3>
+            <br>
+            <ul>
+              <li><a href="#">Payments</a></li><br>
+              <li><a href="#">Feedback</a></li><br>
+              <li><a href="#">F&Qs</a></li><br>
+              <li><a href="#">Customer Support</a></li>
+            
+            </ul>
+          </div>
+      
+          
+      
+          
+           
+      
+          <div class="footer-column">
+            <h3>About Us</h3>
+            <br>
+            <p>Discover a world of literature at our online bookstore. We curate a diverse collection of books to cater to all readers. Explore and immerse yourself in captivating stories and knowledge.</p>
+          </div>
+      
         </div>
+      </footer>
     </div>
     <script src="https://kit.fontawesome.com/98b89cfd68.js" crossorigin="anonymous"></script>
 
