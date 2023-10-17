@@ -542,8 +542,7 @@ font-size: 30px;
 }
 
 /* card hover effect css*/
-.flex-item-left1:hover {
-  border: 1px solid black;
+.flex-item-left1:hover { 
   transform: scale(1.05);
 }
 
@@ -552,7 +551,6 @@ font-size: 30px;
 }
 
 .flex-item-right2:hover {
-  border: 1px solid black;
   transform: scale(1.05);
 }
 
@@ -561,7 +559,6 @@ font-size: 30px;
 }
 
 .flex-item-left3:hover {
-  border: 1px solid black;
   transform: scale(1.05);
 }
 
@@ -570,6 +567,29 @@ font-size: 30px;
 }
 
 
+.flex-item-right4:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-right4:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-left5:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-left5:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.flex-item-right6:hover {
+  transform: scale(1.05);
+}
+
+.flex-item-right6:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
 
 
 
