@@ -158,7 +158,7 @@ height: 260px;
 width: 100%;
 }
 
-.flex-item-left {
+.flex-item-left1 {
 
 padding: 20px;
 flex: 50%;
@@ -175,7 +175,7 @@ background-size: 100% 100%;
 
 }
 
-.flex-item-right {
+.flex-item-right2 {
 
 padding: 20px;
 flex: 50%;
@@ -187,10 +187,77 @@ padding:20px; /*if your want to padding */
 background-size: cover;
 }
 
+
+.flex-item-left3 {
+
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS-qIuP6vM0IFt0X-Undb29y2Khv9GBpJIZUzsiqRgiNpNLPLhkD0UPO1FUJVE_PNMJQc&usqp=CAU');
+  margin:30px; /* If you want no margin */
+  padding:0; /*if your want to padding */
+  background-size: 100% 100%;
+  
+  
+  
+  
+  
+  }
+  
+  .flex-item-right4 {
+  
+  padding: 20px;
+  flex: 50%;
+  width:100%; /*width of your image*/
+  height:100%; /*height of your image*/
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_leASO38q4uTG4RWT6uVhWv-PID8CtULTBFkF119uS8EI4Gq9LYOakKyqGqIsyJeX4q0&usqp=CAU');
+  margin:30px; /* If you want no margin */
+  padding:20px; /*if your want to padding */
+  background-size: cover;
+  }
+
+  .flex-item-left5 {
+
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBAoORVRaGDTZTSfqFX_0n1J4PGTnezpl5n9Ml2hgEAkQanTxotfOMrVwcWcdvA7cxKU&usqp=CAU');
+    margin:30px; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-size: 100% 100%;
+    
+    
+    
+    
+    
+    }
+    
+    .flex-item-right6 {
+    
+    padding: 20px;
+    flex: 50%;
+    width:100%; /*width of your image*/
+    height:100%; /*height of your image*/
+    background-image:url('https://oldbookdepot.in/wp-content/uploads/2022/09/Autobiography-of-Benjamin-Franklin.jpg');
+    margin:30px; /* If you want no margin */
+    padding:20px; /*if your want to padding */
+    background-size: cover;
+    }
+
+
+
+
+
+
+
+
+
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
 .flex-container {
-  flex-direction: column;
+  flex-direction: row;
 }
 }
 
