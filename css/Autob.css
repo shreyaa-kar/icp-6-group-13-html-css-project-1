@@ -211,7 +211,7 @@ background-size: cover;
   flex: 50%;
   width:100%; /*width of your image*/
   height:100%; /*height of your image*/
-  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_leASO38q4uTG4RWT6uVhWv-PID8CtULTBFkF119uS8EI4Gq9LYOakKyqGqIsyJeX4q0&usqp=CAU');
+  background-image:url('https://m.media-amazon.com/images/I/71jVC6Vln6L._AC_UF1000,1000_QL80_.jpg');
   margin:30px; /* If you want no margin */
   padding:20px; /*if your want to padding */
   background-size: cover;
@@ -328,7 +328,7 @@ background-size: cover;
   flex: 50%;
   width:100%; /*width of your image*/
   height:100%; /*height of your image*/
-  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7uJ_SRMiKMa03EgJ5PKzufqPuDUrHBsgDC1qTtveS8ZqU440Ho6-98mn5O6DJca7MBdA&usqp=CAU');
+  background-image:url('https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781635573534.jpg');
   margin:30px; /* If you want no margin */
   padding:20px; /*if your want to padding */
   background-size: cover;
@@ -440,6 +440,15 @@ margin: 0 8px;
 font-size: 30px;
 
 }
+
+
+.cardtext{
+  
+  color: dodgerblue;
+  margin-top: 210px;
+}
+
+
 
 
 
