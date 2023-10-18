@@ -164,18 +164,20 @@ body{
         margin-top: 30px;
         margin-left: 120px;
         margin-right: 120px;
+        text-align: center;
     }
 
     .about-page-heading{
         font-size: 30px;
-        margin-left: 100px;
         margin-top: 50px;
+        text-align: center;
     }
     .our-team-heading{
       font-size: 50px;
-      color: black;
+      color: white;
       text-align: center;
       margin-top: 50px;
+      background-color: #080808;
     }
   
   .team-card{
@@ -185,12 +187,12 @@ body{
       margin: 20px;
       border-width: 10px;
       border-radius: 5px 30px 5px 30px;
-      border-color: black;
+      border: 3px solid black;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 
   .team-card:hover{
-    box-shadow: 0 0 5px 2px black;
+    box-shadow: 0 0 10px 5px black;
     transition: 0.5s;
   }
   
