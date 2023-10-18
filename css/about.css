@@ -181,14 +181,14 @@ body{
     }
   
   .team-card{
-      background-color: gray;
+      background-color: transparent;
       width: 250px;
       padding: 20px 40px;
       margin: 20px;
       border-width: 10px;
       border-radius: 5px 30px 5px 30px;
+      box-shadow: 0  0 10px black;
       border: 3px solid black;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
   }
 
   .team-card:hover{

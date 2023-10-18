@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color:#fff;
+    background-color:#e5e5e5;
 }
 .navbar1 {
   
@@ -152,7 +152,7 @@ background-color: rgb(238, 89, 89);
                 margin-left: 40px;
             }
             .book-card{
-                background-color:rgb(59, 56, 56) ;
+                background-color:transparent ;
                 width: 240px;
                 padding: 20px 40px;
                 margin: 20px;
@@ -179,17 +179,17 @@ background-color: rgb(238, 89, 89);
             
             .book-card-title{
                 text-align: center;
-               color: white;
+               color: black;
                  font-size: 30px;
                     }
                     .book-card-price{
                         text-align: center;
-                        color:white;
+                        color:black;
                         font-size: 25px;
                     }
                     .book-description{
                         text-align: center;
-                        color: white;
+                        color: black;
                         font-size: 25px;
                     }
                     .Buy-now-btn{
