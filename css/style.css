@@ -395,6 +395,8 @@ width: 250;
 width: 300px;
 margin-bottom: 10px;
 min-width: max: 100%;
+color: white;
+text-decoration: none;
 
 }
 
@@ -402,6 +404,8 @@ h3 {
 font-size: 30px;
 margin-bottom: 15px;
 color: #f4f1f1;
+color: white;
+text-decoration: none;
 }
 
 p {
