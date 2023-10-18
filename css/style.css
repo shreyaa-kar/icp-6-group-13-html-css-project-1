@@ -2,6 +2,9 @@ body{
     padding: 0;
     margin: 0;
     background-color:#fff;
+    color: white;
+    text-decoration: none;
+
 }
 .navbar1 {
   
@@ -60,6 +63,7 @@ font-size: 25px;
 color: white;
 text-decoration: none;
 }
+
 .menus:hover{
 border: 1px solid white;
 height: auto;
@@ -142,24 +146,26 @@ background-color: rgb(238, 89, 89);
   color: white;
   }
 
-/* Media query for responsive design */
-@media (max-width: 768px) {
-.container {
-flex-direction: column;
-}
 
 .menu {
 margin-top: 10px;
+color: white;
+text-decoration: none;
 }
 
 .menu ul {
 flex-direction: column;
+color: white;
+text-decoration: none;
+
 }
 
 .menu ul li {
 margin-right: 0;
 margin-bottom: 10px;
-}
+color: white;
+text-decoration: none;
+
 }
 .shop-img{
     height: 600px;
@@ -173,6 +179,9 @@ margin-bottom: 10px;
     align-items: center;
     grid-template-columns: 1fr 2fr 1fr;
     column-gap: 10px;
+    color: white;
+    text-decoration: none;
+
 
 }
 
@@ -196,7 +205,7 @@ margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
     background-color:rgb(12, 12, 12) ;   
-     color: white;
+    color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -224,6 +233,7 @@ margin-bottom: 10px;
     height: 300px;
     background-color:rgb(59, 56, 56) ;
     padding: 10px;
+    border: 3px solid black;
     margin: 50px;
     border-radius: 5px 30px 5px 30px;
     box-shadow: 0 0 10px white;
@@ -238,7 +248,7 @@ margin-bottom: 10px;
     left: 90px;
     background-color: #fff;
     padding: 10px;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 5px 30px 5px 30px;
     color: gray;
     width: 70px;
@@ -279,10 +289,10 @@ margin-bottom: 10px;
                 background-color: rgb(59, 56, 56);
                 width: 240px;
                 padding: 5px 20px;
-                margin: 10px;
+                border: 3px solid black;
+                margin: 5px;
                 border-radius: 5px 30px 5px 30px;
                 box-shadow: 0  0 10px black;
-                border: black;
                 margin-bottom: 50px;
         
             }
