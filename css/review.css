@@ -146,15 +146,14 @@ background-color: rgb(238, 89, 89);
 }
 
 .review-card{
-    background-color: gray;
+    background-color: transparent;
+    box-shadow: 0  0 10px black;
+    border: 3px solid black;
     width: 300px;
     height: 550px;
     padding: 20px 40px;
     margin: 20px;
-    border-width: 10px;
-    border-radius: 5px 30px 5px 30px ;
-    border: 3px solid black;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 5px 35px 5px 35px ;
 }
 
 .customer-image{
