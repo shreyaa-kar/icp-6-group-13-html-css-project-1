@@ -598,6 +598,10 @@ font-size: 30px;
             padding: 10px;
             
             }
+            .footer-column {
+                width: 100%;
+                background-color: rgb(52, 48, 48); 
+              }
             /*footer {
         
                 padding: 40px 0;
