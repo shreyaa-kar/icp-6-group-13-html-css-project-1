@@ -94,6 +94,7 @@ border-radius: 3px;
 background-color: #e74c3c;
 color: #fff;
 border: none;
+text-align: center;
 border-radius: 3px;
 padding: 5px 10px;
 cursor: pointer;
@@ -177,6 +178,7 @@ text-decoration: none;
     display: grid;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
     grid-template-columns: 1fr 2fr 1fr;
     column-gap: 10px;
     color: white;
@@ -203,6 +205,7 @@ text-decoration: none;
 .header-explore-btn{
     font-size: 25px;
     font-weight: bold;
+    align-items: center;
     text-align: center;
     background-color:rgb(12, 12, 12) ;   
     color: white;
@@ -212,6 +215,7 @@ text-decoration: none;
     margin-top: 30px;
     margin-left: auto;
     cursor: pointer;
+    display: block;
 
 
 }
@@ -220,6 +224,7 @@ text-decoration: none;
     box-shadow: 0 0 5px 2px gray;
     padding: 7px 25px;
     transition: 0.5s;
+    display: block;
 }
 .our-feature-heading{
     font-size: 50px;
@@ -294,6 +299,7 @@ text-decoration: none;
                 border-radius: 5px 30px 5px 30px;
                 box-shadow: 0  0 10px black;
                 margin-bottom: 50px;
+                text-align: center;
         
             }
             .book-card:hover{
@@ -320,9 +326,11 @@ text-decoration: none;
                         text-align: center;
                         color:white;
                         font-size: 25px;
+                        display: block;
                     }
                     .book-description{
                         text-align: center;
+                        display: block;
                         color: white;
                         font-size: 25px;
                     }
@@ -370,12 +378,13 @@ justify-content: space-evenly;
 background-color: #3e3f3e;
 max-width: 100%;
 margin: 0 auto;
-height: 300px;
+height: 350px;
 width: max-content;
+
 
 }
 .logo2{
-margin-top: 10px;
+margin-top: 50px;
 margin-right: 10px;
 margin-right: 10px;
 height: 250px;
@@ -386,6 +395,7 @@ width: 250;
 width: 300px;
 margin-bottom: 10px;
 min-width: max: 100%;
+
 }
 
 h3 {
@@ -399,6 +409,7 @@ font-size: 18px;
 line-height: 1.5;
 color: #fff;
 margin-top: 5PX;
+display: flex;
 }
 
 ul {
@@ -413,6 +424,7 @@ font-size: 20px;
 transition: color 0.3s ease;
 margin-bottom: 10px;
 margin-top: 10px;
+display:inline-flex;
 }
 
 ul li a:hover {
@@ -438,9 +450,6 @@ margin: 0 8px;
 font-size: 30px;
 
 }
-
-
-
 
 @media screen and (max-width: 768px) {
 .footer-column {
