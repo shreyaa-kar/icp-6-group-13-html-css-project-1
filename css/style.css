@@ -16,7 +16,6 @@ align-items: center;
 .logo img {
 width: 400px ;
 height:80px;
-
 margin-left: 20px;
 border-radius: 0px 30px 0px 30px;
 }
@@ -236,18 +235,9 @@ margin-bottom: 10px;
     left: 90px;
     background-color: #fff;
     padding: 10px;
-    /*<<<<< HEAD
-    border: 1px solid #b0916a;
-    border-radius: 10px;
-    color: black;
-=======
     border: 1px solid black;
-    border-radius: 5px 30px 5px 30px;
-    color: gray;
->>>>>>> f5062c656b3f84a7cc38db8a778e1e5237aaad8b
-    width: 70px;
-    text-align: center;
-}*/
+    border-radius: 10px;
+} 
 
 .feature-title{
     text-align: center;
