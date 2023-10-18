@@ -217,11 +217,11 @@ background-color: rgb(238, 89, 89);
                         justify-content: space-around;
                          }
                          
-                         footer {
+                         .footer {
                             background-color: rgb(52, 48, 48);
                             padding: 40px 0;
                             width: 100%;
-                            color: #f8f5f5;
+                            color:black;
                             text-align: center;
                             font-family: cursive;
             
@@ -342,23 +342,8 @@ background-color: rgb(238, 89, 89);
                                 }
                                 }
                                 @media only screen and (max-width: 600px){
-                                    .logo img {
-                                        width: 250px ;
-                                        height:40px;
-                                        margin-left: 130px;
-                                    }
-                                .footer-container{
-                                    height: 180vh;
-                                    display: flex;
-                                    flex-wrap: wrap;
-                                }
-                                .logo2{
-                                    height: 200px;
-                                }
-                                .footer-column{
-                                    display: block;
-                                    text-align: center;
-                                }
+
+        
                                 .book-title{  
                                      text-align: center;
                                 }
@@ -380,6 +365,16 @@ background-color: rgb(238, 89, 89);
                                     flex-wrap: wrap;
 
                                 }
+                                .footer {
+                                    background-color: rgb(52, 48, 48);
+                                    padding: 40px 0;
+                                    width: 100%;
+                                    color: #f8f5f5;
+                                    text-align: center;
+                                    font-family: cursive;
+                    
+                                    
+                                    }
                             }
                             
                             
