@@ -1,4 +1,4 @@
-<img src="././img/logo1.jpeg"/>
+Grace Bookstore
 
 # Introduction 
 ## Grace book store is the best book store.We specialize in offering a curated selection of both popular niche books across various genres,from fiction  and non-fiction having autobiography,biography, diries various books are added.An online book store is a web application that allows customers to buy books online. Customers can search for a book by title or author using a web browser, add it to their shopping cart, and then purchase it using a debit or credit card transaction. Here we are creating an online bookstore that enables both your store and books to be discoverable by search engines like Google. This makes your products available not just to your usual customers in your local neighbourhood but also to people further away, across the country, and even overseas.
