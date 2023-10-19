@@ -393,11 +393,11 @@ width: 250;
 }
 
 .footer-column {
+    color: #fff;
+    text-decoration: none;
 width: 300px;
 margin-bottom: 10px;
 min-width: max: 100%;
-color: white;
-text-decoration: none;
 
 }
 
