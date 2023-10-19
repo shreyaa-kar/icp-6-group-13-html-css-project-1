@@ -303,24 +303,33 @@ body{
 
       @media only screen and (max-width: 600px){
         .logo img {
-            width: 250px ;
-            height:40px;
-            margin-left: 130px;
+          width: 250px ;
+          height:40px;
+          margin-left: 115px;
         }
-        .navbar1{
-            display: flex;
-            flex-wrap: wrap;
-            height: 150px;
-            padding: 20px;
+       .input{
+          width: 250px;
+          height: 20px;
         }
-        .menu{
-            margin-top: 0;
-            margin-left: auto;
-            margin-right: auto;
+       .search1{
+          height: 30px;
+          width: 80px;
         }
-        .search{
-            margin-left: auto;
-            margin-right: auto;
+       .navbar1{
+          display: flex;
+          flex-wrap: wrap;
+          height: 150px;
+          padding: 20px;
+        }
+       .menu{
+          margin-top: 0;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 17px;
+        }
+       .search{
+          margin-left: auto;
+          margin-right: auto;
         }
         .navbar2{
             display: flex;
@@ -355,6 +364,12 @@ body{
           font-size: 20px;
           margin-left: 60px;
           margin-right: 60px;
+        }
+        .our-team-heading{
+          font-size: 35px;
+        }
+        .our-team-container{
+          margin-left: 80px;
         }
         .logo2{
           height: 200px;

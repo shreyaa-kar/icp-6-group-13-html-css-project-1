@@ -468,7 +468,15 @@ width: 100%;
     .logo img {
         width: 250px ;
         height:40px;
-        margin-left: 130px;
+        margin-left: 115px;
+    }
+    .input{
+        width: 250px;
+        height: 20px;
+    }
+    .search1{
+        height: 30px;
+        width: 80px;
     }
     .navbar1{
         display: flex;
@@ -480,6 +488,7 @@ width: 100%;
         margin-top: 0;
         margin-left: auto;
         margin-right: auto;
+        font-size: 17px;
     }
     .search{
         margin-left: auto;
@@ -496,6 +505,9 @@ width: 100%;
         font-size: 20px;
         padding: 15px;
     }
+    .header-container{
+        display: flex;
+    }
     .shop-img{
         height: 300px;
         width: 450px;
@@ -507,31 +519,30 @@ width: 100%;
         margin-right: 50px;
     }
     .header-description{
-        font-size: 25px;
+        font-size: 23px;
+        margin-left: 80px;
     }
     .header-explore-btn{
         font-size: 20px;
-        margin-left: 200px;
+        margin-left: 150px;
+        margin-right: 150px;
     }
     .our-feature-heading{
-        font-size: 35px;
+        font-size: 30px;
     }
     .feature-container{
         display: flex;
         flex-wrap: wrap;
     }
     .feature-card{
-        height: 280px;
+        height: 230px;
     }
-    .customers-review-heading{
-        font-size: 40px;
+    .book-title{
+        font-size: 35px;
     }
-    .review-card{
-        width: 250px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
     .footer-container{
+        width: auto;
         height: 180vh;
         display: flex;
         flex-wrap: wrap;
