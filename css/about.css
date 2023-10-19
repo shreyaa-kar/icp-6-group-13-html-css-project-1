@@ -182,7 +182,8 @@ body{
   
   .team-card{
       background-color: transparent;
-      width: 250px;
+      width: 230px;
+      height: 480px;
       padding: 20px 40px;
       margin: 20px;
       border-width: 10px;
@@ -197,7 +198,7 @@ body{
   }
   
   .team-member-image{
-      width: 250px;
+      width: 190px;
       display: block;
       margin: 5px auto;
       border-radius: 50%;
@@ -220,9 +221,10 @@ body{
       margin-top: 50px;
   }
 
-  .github-icon{
+  .social-media-icon{
     font-size: 50px;
-    margin-left: 100px;
+    margin-left: 25px;
+    cursor: pointer;
   }
     footer {
       background-color: rgb(52, 48, 48);
