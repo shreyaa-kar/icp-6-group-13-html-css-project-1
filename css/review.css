@@ -1,0 +1,438 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+}
+.navbar1 {
+  
+background-color: #080808;
+color: #fff;
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo img {
+width: 400px ;
+height:80px;
+
+margin-left: 20px;
+border-radius: 0px 30px 0px 30px;
+}
+.search{
+    display: left;
+    }
+    .input{
+    width: 350px;
+    height: 30px;
+    border-radius: 50%;
+    }
+    .search1{
+    height: 35px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 50%;
+    }
+
+.store-name {
+font-size: 24px;
+font-weight: bold;
+}
+
+.menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+text-decoration: none;
+}
+
+.menu {
+padding: 20px;
+display: flex;
+margin: 20px;
+justify-content: space-around;
+font-size:Sans-serif;
+color: #fff;
+font-size: 25px;
+text-decoration: none;
+}
+.menus:hover{
+border: 1px solid white;
+height: auto;
+width: auto;
+box-shadow: #f5f5f5 0px 0px 5px 2px;
+transition: 0.5s;
+border-radius: 10px;
+text-align: center;
+background-color: rgb(122, 112, 112);
+padding: -20px;
+}
+.menus{
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+margin: 10px;
+padding: 10px;
+
+}
+
+.search input {
+padding: 5px;
+border: none;
+border-radius: 3px;
+}
+
+.search button {
+background-color: #e74c3c;
+color: #fff;
+border: none;
+border-radius: 3px;
+padding: 5px 10px;
+cursor: pointer;
+}
+.search button:hover{
+border: 1px solid white;
+height: auto;
+width: 100px;
+box-shadow: #f5f5f5 0px 0px 2px 2px;
+transition: 0.5s;
+border-radius: 5px;
+text-align: center;
+background-color: rgb(238, 89, 89);
+
+}
+.navbar2 {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:Sans-serif ;
+    height: 50px;
+    font-weight: 100;
+    font-size: 20px;
+
+  }
+  
+
+  .navbar2 a {
+    color: #333;
+    text-decoration: none;
+    font-family: cursive;
+  }
+
+  
+  .navbar2 a:hover{
+    border-radius: 15px 0 15px 0;
+    padding: 3px;
+   background: linear-gradient(rgb(3, 43, 51), rgb(12, 12, 12));
+    color: rgb(240, 239, 240);
+    border: 2px solid rgb(239, 234, 234);
+  }
+
+.navbar a.active {
+  border: 2px solid rgb(246, 241, 241);
+  border-radius: 15px 0 15px 0;
+  padding: 3px;
+  box-shadow: 4px 3px rgb(246, 246, 248);
+  background-color: black;
+  color: white;
+  }
+  .customers-review-heading{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.review-card{
+    background-color: transparent;
+    box-shadow: 0  0 10px black;
+    border: 3px solid black;
+    width: 300px;
+    height: 550px;
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 5px 35px 5px 35px ;
+}
+
+.customer-image{
+    width: 250px;
+    display: block;
+    margin: 5px auto;
+}
+
+.customer-name{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+.customer-review{
+    font-size: 25px;
+    text-align: center;
+    color: #080808;
+}
+
+.customers-review-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.footer {
+    background-color: rgb(52, 48, 48);
+    padding: 40px 0;
+    color: #f8f5f5;
+    text-align: center;
+    font-family: cursive;
+    }
+    
+    .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    background-color: #3e3f3e;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 350px;
+    width: max-content;
+    
+    
+    }
+    .logo2{
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-right: 10px;
+    height: 250px;
+    width: 250;
+    }
+    
+    .footer-column {
+    width: 300px;
+    margin-bottom: 10px;
+    min-width: max: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    }
+    
+    h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #f4f1f1;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:block;
+    }
+    
+    p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    ul li a {
+    color: #fcfafa;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display:inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    ul li a:hover {
+    color: #f31212;
+    }
+    
+    .social-icons {
+    display: block;
+    justify-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+    }
+    
+    
+    .social-icons li {
+    margin: 0 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    }
+    
+    .fa {
+    font-size: 30px;
+    
+    }
+    
+@media screen and (max-width: 768px) {
+    .footer-column {
+    width: 100%;
+    }
+    }
+    
+    
+    
+    @media only screen and (max-width: 600px){
+        .logo img {
+            width: 250px ;
+            height:40px;
+            margin-left: 130px;
+        }
+        .navbar1{
+            display: flex;
+            flex-wrap: wrap;
+            height: 150px;
+            padding: 20px;
+        }
+        .menu{
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .search{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .navbar2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size:Sans-serif ;
+            height: 90px;
+            font-weight: 50px;
+            font-size: 20px;
+            padding: 15px;
+        }
+        .shop-img{
+            height: 300px;
+            width: 450px;
+            margin: 20px;
+        }
+        .header-title{
+            font-size: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .header-description{
+            font-size: 25px;
+        }
+        .header-explore-btn{
+            font-size: 20px;
+            margin-left: 200px;
+        }
+        .our-feature-heading{
+            font-size: 35px;
+        }
+        .feature-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .feature-card{
+            height: 280px;
+        }
+        .customers-review-heading{
+            font-size: 40px;
+        }
+        .review-card{
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .footer-container{
+            height: 180vh;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .logo2{
+            height: 200px;
+        }
+        .footer-column{
+            display: block;
+            text-align: center;
+        }
+    }
+    
+    @media only screen and (min-width: 601px) and (max-width: 800px){
+    .navbar-menu-container{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .header-explore-btn{
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .feature-container{
+    display: flex;
+    flex-wrap: wrap;
+        }
+    }
+    
+    @media only screen and (min-width: 801px) and (max-width: 1400px){
+        .feature-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .footer-column {
+          width: 100%;
+          background-color: rgb(52, 48, 48); 
+        }
+      }
+    
+     
+    
+     
+    
+    @media only screen and (min-width: 601px) and (max-width: 800px){
+    .navbar-menu-container{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .header-explore-btn{
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .feature-container{
+    display: flex;
+    flex-wrap: wrap;
+        }
+    }
+    
+    @media only screen and (min-width: 801px) and (max-width: 1400px){
+        .feature-container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .footer-column {
+          width: 100%;
+          background-color: rgb(52, 48, 48); 
+        }
+      }
+    
+
