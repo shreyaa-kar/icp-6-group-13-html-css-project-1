@@ -338,6 +338,40 @@ background-color: rgb(238, 89, 89);
                             font-size: 30px;
                             
                             }
+                            @media only screen and (max-width: 600px){
+                                .footer-container{
+                                    height: 1800px;
+                                }
+                                .logo img {
+                                    width: 250px ;
+                                    height:40px;
+                                    margin-left: 130px;
+                                }
+                                .navbar1{
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    height: 300px;
+                                    padding: 20px;
+                                }
+                                .menu{
+                                    margin-top: 0;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                }
+                                .search{
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                }
+                                .navbar2{
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justisize:Sans-serif ;
+                                    height: 90px;
+                                    font-weight: 50px;
+                                    font-size: 20px;
+                                    padding: 15px;
+                                }
+                                
                             
                             
                             
