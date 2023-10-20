@@ -218,83 +218,160 @@ background-color: rgb(238, 89, 89);
                         flex-wrap: wrap;
                         justify-content: space-around;
                          }
-  footer {
-    background-color: rgb(52, 48, 48);
-    padding: 40px 0;
-    width: 100%;
-    color: #f8f5f5;
-    text-align: center;
-    font-family: cursive;
-    
-    }
-    
-    .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 100%;
-    margin: 0px auto;
-    height: 250px;
-    }
-    .logo2{
-    margin-top: -20px;
-    height: auto;
-    width: auto;
-    }
-    
-    .footer-column {
-    width: 265px;
-      
-    }
-     
-    h3 {
-    font-size: 21px;
-    margin-bottom: 15px;
-    color: #f4f1f1;
-    }
-    
-    p {
-    font-size: 14px;
-    line-height: 1.5;
-    }
-    
-    ul {
-    list-style: none;
-    padding: 0;
-    }
-    
-    ul li a {
-    color: #fcfafa;
-    text-decoration: none;
-    font-size: 17px;
-    transition: color 0.3s ease;
-    margin-bottom: 10px;
-    }
-    
-    ul li a:hover {
-    color: #f31212;
-    }
-    
-    .social-icons {
-    display: block;
-    justify-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    
-    }
-     .social-icons li {
-    margin: 0 8px;
-    
-    }
-    .fa {
-    font-size: 30px;
-    }
-    .footer-icon{
-        height: 40px;
-    }
+                         
+                         footer {
+                            background-color: rgb(52, 48, 48);
+                            padding: 40px 0;
+                            width: 100%;
+                            color: #f8f5f5;
+                            text-align: center;
+                            font-family: cursive;
+            
+                            
+                            }
+                            
+                            .footer-container {
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-evenly;
+                            max-width: 100%;
+                            margin: 0px auto;
+                            height: 250px;
+                            }
+                            .logo2{
+                            margin-top: -20px;
+                            height: auto;
+                            width: auto;
+                            }
+                            
+                            .footer-column {
+                            width: 265px;
+                              
+                            }
+                             
+                            h3 {
+                            font-size: 21px;
+                            margin-bottom: 15px;
+                            color: #f4f1f1;
+                            }
+                            
+                            p {
+                            font-size: 14px;
+                            line-height: 1.5;
+                            }
+                            
+                            ul {
+                            list-style: none;
+                            padding: 0;
+                            }
+                            
+                            ul li a {
+                            color: #fcfafa;
+                            text-decoration: none;
+                            font-size: 17px;
+                            transition: color 0.3s ease;
+                            margin-bottom: 10px;
+                            }
+                            
+                            ul li a:hover {
+                            color: #f31212;
+                            }
+                            
+                            .social-icons {
+                            display: block;
+                            justify-items: center;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 20px;
+                            
+                            }
+                             .social-icons li {
+                            margin: 0 8px;
+                            
+                            }
+                            .fa {
+                            font-size: 30px;
+                            }
+                            .footer-icon{
+                                height: 40px;
+                            }
+                           
+                            
+                            p {
+                            font-size: 14px;
+                            line-height: 1.5;
+                            }
+                            
+                            ul {
+                            list-style: none;
+                            padding: 0;
+                            }
+                            
+                            ul li a {
+                            color: #fcfafa;
+                            text-decoration: none;
+                            font-size: 17px;
+                            transition: color 0.3s ease;
+                            margin-bottom: 10px;
+                            }
+                            
+                            ul li a:hover {
+                            color: #f31212;
+                            }
+                            
+                            .social-icons {
+                            display: block;
+                            justify-items: center;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 20px;
+                            
+                            }
                             
                             
+                            .social-icons li {
+                            margin: 0 8px;
+                            
+                            }
+                            
+                            .fa {
+                            font-size: 30px;
+                            
+                            }
+                            @media only screen and (max-width: 600px){
+                                .footer-container{
+                                    height: 1800px;
+                                }
+                                .logo img {
+                                    width: 250px ;
+                                    height:40px;
+                                    margin-left: 130px;
+                                }
+                                .navbar1{
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    height: 300px;
+                                    padding: 20px;
+                                }
+                                .menu{
+                                    margin-top: 0;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                }
+                                .search{
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                }
+                                .navbar2{
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justisize:Sans-serif ;
+                                    height: 90px;
+                                    font-weight: 50px;
+                                    font-size: 20px;
+                                    padding: 15px;
+                                }
+                                
                             
                             
                             
